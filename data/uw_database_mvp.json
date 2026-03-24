@@ -1,0 +1,2246 @@
+[
+  {
+    "course": "CSE 121",
+    "sln": "12729",
+    "status": "Open",
+    "raw_string": "12729 A 4 WF 1130-1220 CSE2 G20 Natsuhara,Miya Kaye Open 201/ 230 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- NO CREDIT FOR STUDENTS WHO HAVE COMPLETED CSE 142 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 18, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12730",
+    "status": "Open",
+    "raw_string": "12730 AA QZ TTh 830-920 ECE 003 Rabel,Paul Open 13/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12731",
+    "status": "Open",
+    "raw_string": "12731 AB QZ TTh 930-1020 LOW 115 Henke,Tamsyn Open 10/ 11 J AB/BB"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12732",
+    "status": "Open",
+    "raw_string": "12732 AC QZ TTh 1030-1120 MGH 288 Schiller,Carson Open 20/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12733",
+    "status": "Open",
+    "raw_string": "12733 AD QZ TTh 1130-1220 MGH 074 Imran,Anum Open 19/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12734",
+    "status": "Open",
+    "raw_string": "12734 AE QZ TTh 1230-120 LOW 117 Jagtap,Janvi Open 19/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12735",
+    "status": "Open",
+    "raw_string": "12735 AF QZ TTh 130-220 MGH 288 Babu,Amogh Open 7/ 8 J AF/BF"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12736",
+    "status": "Closed",
+    "raw_string": "12736 AG QZ TTh 230-320 MGH 248 Vu,Minh Closed 21/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12737",
+    "status": "Open",
+    "raw_string": "12737 AH QZ TTh 330-420 LOW 114 Furuyama,Aki Open 9/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12739",
+    "status": "Open",
+    "raw_string": "12739 AJ QZ TTh 930-1020 MGH 284 Fairchild,Reese Owen Open 16/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12740",
+    "status": "Open",
+    "raw_string": "12740 AK QZ TTh 1030-1120 SAV 166 Garrard,Savannah Lee Open 12/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12741",
+    "status": "Open",
+    "raw_string": "12741 AL QZ TTh 1130-1220 LOW 115 Chi,Johnathan Open 20/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12742",
+    "status": "Open",
+    "raw_string": "12742 AM QZ TTh 1230-120 LOW 112 Jain,Navya Open 16/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12743",
+    "status": "Open",
+    "raw_string": "12743 AN QZ TTh 130-220 LOW 116 Feeney,Hayden Bradford Open 19/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12746",
+    "status": "Open",
+    "raw_string": "12746 B 4 WF 230-320 GUG 220 Natsuhara,Miya Kaye Open 87/ 240 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- NO CREDIT FOR STUDENTS WHO HAVE COMPLETED CSE 142 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 18, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12747",
+    "status": "Open",
+    "raw_string": "12747 BA QZ TTh 830-920 MGH 248 Zhan,Cayden Junyi Open 7/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12748",
+    "status": "Open",
+    "raw_string": "12748 BB QZ TTh 930-1020 LOW 115 Henke,Tamsyn Open 7/ 10 J AB/BB"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12749",
+    "status": "Open",
+    "raw_string": "12749 BC QZ TTh 1030-1120 THO 234 Luo,Jessica Open 12/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12750",
+    "status": "Open",
+    "raw_string": "12750 BD QZ TTh 1130-1220 LOW 118 Li,Ethan Open 10/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12751",
+    "status": "Open",
+    "raw_string": "12751 BE QZ TTh 1230-120 LOW 118 Gardner,Spencer Open 12/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12752",
+    "status": "Open",
+    "raw_string": "12752 BF QZ TTh 130-220 MGH 288 Babu,Amogh Open 10/ 14 J AF/BF"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12753",
+    "status": "Open",
+    "raw_string": "12753 BG QZ TTh 230-320 SAV 132 Islam,Abdul-Raqib Muhammad Open 16/ 21"
+  },
+  {
+    "course": "CSE 121",
+    "sln": "12754",
+    "status": "Open",
+    "raw_string": "12754 BH QZ TTh 330-420 PCAR 395 Baird,William Open 13/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12763",
+    "status": "Open",
+    "raw_string": "12763 A 4 WF 130-220 KNE 120 Salguero,Adrian Open 265/ 360 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- NO CREDIT FOR STUDENTS WHO HAVE COMPLETED CSE 143 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12764",
+    "status": "Open",
+    "raw_string": "12764 AA QZ TTh 830-920 MGH 271 Ballesteros,Dani Open 16/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12765",
+    "status": "Open",
+    "raw_string": "12765 AB QZ TTh 930-1020 LOW 114 Li,Wesley Open 19/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12766",
+    "status": "Closed",
+    "raw_string": "12766 AC QZ TTh 1030-1120 MGH 248 Brockett,Dalton Closed 21/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12767",
+    "status": "Open",
+    "raw_string": "12767 AD QZ TTh 1130-1220 MGH 248 Sun,Connor Reilly Open 20/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12768",
+    "status": "Open",
+    "raw_string": "12768 AE QZ TTh 1230-120 LOW 116 Wu,Yang Open 18/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12769",
+    "status": "Unknown",
+    "raw_string": ">12769 AF QZ TTh 130-220 MGH 248 Ungur,Nicolae 9/ 21 ALLEN SCHOLARS ONLY"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12770",
+    "status": "Open",
+    "raw_string": "12770 AG QZ TTh 230-320 PAA A212 Robinson,Blake Open 19/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12771",
+    "status": "Open",
+    "raw_string": "12771 AH QZ TTh 330-420 SAV 162 Shintani,Rio Skye Open 15/ 17"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12772",
+    "status": "Open",
+    "raw_string": "12772 AI QZ TTh 830-920 MGH 074 Hu,Caleb Open 6/ 12 J AI/BA"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12773",
+    "status": "Closed",
+    "raw_string": "12773 AJ QZ TTh 930-1020 LOW 116 Wang,Neal Shilang Closed 22/ 22"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12774",
+    "status": "Open",
+    "raw_string": "12774 AK QZ TTh 1030-1120 LOW 117 Dhamija,Saachi Open 18/ 21 -- COE STARS STUDENTS ONLY (PERIOD 1) --"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12775",
+    "status": "Open",
+    "raw_string": "12775 AL QZ TTh 1130-1220 LOW 112 Yaga,Diya Reddy Open 17/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12776",
+    "status": "Open",
+    "raw_string": "12776 AM QZ TTh 1230-120 LOW 113 Doan,Ava Open 20/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12777",
+    "status": "Open",
+    "raw_string": "12777 AN QZ TTh 130-220 LOW 114 Shankar,Sushma Open 18/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12778",
+    "status": "Open",
+    "raw_string": "12778 AO QZ TTh 230-320 LOW 113 Kadiam,Neha Open 18/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12779",
+    "status": "Open",
+    "raw_string": "12779 AP QZ TTh 330-420 LOW 116 Mittal,Medha Open 9/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12780",
+    "status": "Open",
+    "raw_string": "12780 B 4 WF 230-320 KNE 120 Salguero,Adrian Open 146/ 340 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- NO CREDIT FOR STUDENTS WHO HAVE COMPLETED CSE 143 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12781",
+    "status": "Open",
+    "raw_string": "12781 BA QZ TTh 830-920 MGH 074 Hu,Caleb Open 6/ 12 J AI/BA"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12782",
+    "status": "Open",
+    "raw_string": "12782 BB QZ TTh 930-1020 MGH 082A Gupta,Shreyank Open 10/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12783",
+    "status": "Closed",
+    "raw_string": "12783 BC QZ TTh 1030-1120 LOW 116 Patnaik,Sthiti Pragnya Closed 22/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12784",
+    "status": "Open",
+    "raw_string": "12784 BD QZ TTh 1130-1220 LOW 113 Uliyar,Mahima Open 19/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12785",
+    "status": "Open",
+    "raw_string": "12785 BE QZ TTh 1230-120 LOW 115 Pandit,Suyash Devavrat Open 13/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12786",
+    "status": "Open",
+    "raw_string": "12786 BF QZ TTh 130-220 LOW 117 Kasireddy,Shreya Open 19/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12787",
+    "status": "Open",
+    "raw_string": "12787 BG QZ TTh 230-320 LOW 117 Boinpally,Rohan Open 19/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12788",
+    "status": "Open",
+    "raw_string": "12788 BH QZ TTh 330-420 LOW 113 An,David Open 18/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12794",
+    "status": "Open",
+    "raw_string": "12794 BN QZ TTh 130-220 LOW 118 Perti,Blake Conrad Open 9/ 21"
+  },
+  {
+    "course": "CSE 122",
+    "sln": "12795",
+    "status": "Open",
+    "raw_string": "12795 BO QZ TTh 230-320 LOW 114 Randall,Cole Open 11/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12797",
+    "status": "Open",
+    "raw_string": "12797 A 4 WF 1130-1220 ARC 147 Wortzman,Brett Open 257/ 300 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12798",
+    "status": "Open",
+    "raw_string": "12798 AA QZ TTh 830-920 MGH 082A Mundra,Ishita Open 13/ 18 J AA/BA"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12799",
+    "status": "Open",
+    "raw_string": "12799 AB QZ TTh 930-1020 LOW 111 Tan,Dixon Open 20/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12800",
+    "status": "Open",
+    "raw_string": "12800 AC QZ TTh 1030-1120 DEN 111 Martial,Elden Open 18/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12801",
+    "status": "Open",
+    "raw_string": "12801 AD QZ TTh 1130-1220 LOW 114 Wu,Evan Open 20/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12802",
+    "status": "Open",
+    "raw_string": "12802 AE QZ TTh 1230-120 LOW 114 Supasatit,Cora Snow Open 20/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12803",
+    "status": "Unknown",
+    "raw_string": ">12803 AF QZ TTh 130-220 SAV 156 Zhang,Katharine 22/ 21 ALLEN SCHOLARS ONLY"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12804",
+    "status": "Open",
+    "raw_string": "12804 AG QZ TTh 230-320 LOW 115 Bogen,Chloe Kalei Open 18/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12805",
+    "status": "Open",
+    "raw_string": "12805 AH QZ TTh 330-420 LOW 115 Sarangi,Sahana Open 5/ 9 J AH/BH"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12807",
+    "status": "Open",
+    "raw_string": "12807 AJ QZ TTh 930-1020 LOW 112 Shilamkar,Eeshani Open 16/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12808",
+    "status": "Open",
+    "raw_string": "12808 AK QZ TTh 1030-1120 LOW 115 Ahmad,Ashar Ali Open 18/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12809",
+    "status": "Open",
+    "raw_string": "12809 AL QZ TTh 1130-1220 LOW 111 Nair,Kavya Open 16/ 18 J"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12810",
+    "status": "Open",
+    "raw_string": "12810 AM QZ TTh 1230-120 MGH 284 Agate,Arohan Open 19/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12811",
+    "status": "Open",
+    "raw_string": "12811 AN QZ TTh 130-220 LOW 113 Nain,Kuhu Open 20/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12812",
+    "status": "Open",
+    "raw_string": "12812 AO QZ TTh 230-320 LOW 118 Benoit,Sean Hanul Open 17/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12813",
+    "status": "Open",
+    "raw_string": "12813 AP QZ TTh 330-420 LOW 117 Dauz,Nate Open 15/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12814",
+    "status": "Open",
+    "raw_string": "12814 B 4 WF 230-320 KNE 130 Wortzman,Brett Open 146/ 294 -- SEE THE CSE 12X SELF-PLACEMENT WEBPAGE FOR GUIDANCE ON CHOOSING THE APPROPRIATE CSE 12X COURSE: HTTPS://PLACEMENT.CS.WASHINGTON.EDU (COPY/PASTE INTO WEB BROWSER) -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12815",
+    "status": "Open",
+    "raw_string": "12815 BA QZ TTh 830-920 MGH 082A Mundra,Ishita Open 5/ 10 J AA/BA"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12816",
+    "status": "Open",
+    "raw_string": "12816 BB QZ TTh 930-1020 LOW 113 Ma,Chris Open 13/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12817",
+    "status": "Open",
+    "raw_string": "12817 BC QZ TTh 1030-1120 LOW 101 Nivota,Misha Open 16/ 18"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12818",
+    "status": "Open",
+    "raw_string": "12818 BD QZ TTh 1130-1220 LOW 117 Suen,Aidan Jefferson Open 16/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12819",
+    "status": "Open",
+    "raw_string": "12819 BE QZ TTh 1230-120 LOW 111 Kowal,Jonah Open 18/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12820",
+    "status": "Open",
+    "raw_string": "12820 BF QZ TTh 130-220 LOW 112 Rullman,Kieran Open 20/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12821",
+    "status": "Open",
+    "raw_string": "12821 BG QZ TTh 230-320 LOW 116 Bui,Jenny Open 15/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12822",
+    "status": "Open",
+    "raw_string": "12822 BH QZ TTh 330-420 LOW 115 Sarangi,Sahana Open 7/ 12 J AH/BH"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12825",
+    "status": "Open",
+    "raw_string": "12825 BK QZ TTh 1030-1120 LOW 114 Liu,Brice Open 15/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12826",
+    "status": "Closed",
+    "raw_string": "12826 BL QZ TTh 1130-1220 LOW 111 Nair,Kavya Closed 5/ 5 J AL/BL"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12827",
+    "status": "Open",
+    "raw_string": "12827 BM QZ TTh 1230-120 MGH 288 Yin,Rena Open 6/ 21"
+  },
+  {
+    "course": "CSE 123",
+    "sln": "12829",
+    "status": "Open",
+    "raw_string": "12829 BO QZ TTh 230-320 MGH 288 Seshadri,Anirudh Open 10/ 21"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12835",
+    "status": "Open",
+    "raw_string": "12835 A 4 MWF 330-420 KNE 120 Anderson,Ruth Open 209/ 224 -- NOTE: CSE 160 CANNOT BE TAKEN FOR CREDIT IF STUDENT HAS RECEIVED CREDIT FOR CSE 123 OR CSE 143. --"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12836",
+    "status": "Open",
+    "raw_string": "12836 AA QZ Th 1130-1220 THO 234 Kapoor,Arpan Open 24/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12837",
+    "status": "Open",
+    "raw_string": "12837 AB QZ Th 1230-120 MGH 228 Maor,Daniella Open 27/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12838",
+    "status": "Open",
+    "raw_string": "12838 AC QZ Th 130-220 DEN 258 Kannam,Suhas Open 27/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12839",
+    "status": "Open",
+    "raw_string": "12839 AD QZ Th 230-320 MGH 242 Wang,Shengyi Open 26/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12840",
+    "status": "Open",
+    "raw_string": "12840 AE QZ Th 330-420 ECE 042 Gower,Katie Open 26/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12841",
+    "status": "Open",
+    "raw_string": "12841 AF QZ Th 930-1020 MGH 242 Ong,Brianna Open 23/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12842",
+    "status": "Closed",
+    "raw_string": "12842 AG QZ Th 1030-1120 JHN 022 Rodriguez,Kellen Closed 28/ 28"
+  },
+  {
+    "course": "CSE 160",
+    "sln": "12843",
+    "status": "Closed",
+    "raw_string": "12843 AH QZ Th 1130-1220 JHN 026 Duan,Sara Closed 28/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12845",
+    "status": "Open",
+    "raw_string": "12845 A 4 MWF 1230-120 GWN 301 Choi,Suh Young Open 160/ 168 -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12847",
+    "status": "Open",
+    "raw_string": "12847 AC QZ Th 1030-1120 BLD 286 Cho,Arona Open 27/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12848",
+    "status": "Open",
+    "raw_string": "12848 AD QZ Th 1130-1220 THO 335 Sathaye,Asmi Open 27/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12849",
+    "status": "Open",
+    "raw_string": "12849 AE QZ Th 1230-120 DEN 258 Pong,Laura Open 27/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12850",
+    "status": "Closed",
+    "raw_string": "12850 AF QZ Th 130-220 DEN 213 Destefano,Alexis Closed 28/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12851",
+    "status": "Open",
+    "raw_string": "12851 AG QZ Th 230-320 SAV 137 Ramesh,Thrisha Open 26/ 28"
+  },
+  {
+    "course": "CSE 163",
+    "sln": "12852",
+    "status": "Open",
+    "raw_string": "12852 AH QZ Th 330-420 JHN 026 Pandit,Anaya Open 25/ 28"
+  },
+  {
+    "course": "CSE 196",
+    "sln": "12853",
+    "status": "Unknown",
+    "raw_string": ">12853 A 1 Th 230-350 NAN 181 Ikeda,Leslie M. 45/ 60 CR/NC %"
+  },
+  {
+    "course": "CSE 197",
+    "sln": "12854",
+    "status": "Unknown",
+    "raw_string": ">12854 X 1/2 T 230-420 LOW 213 Wang,Matt 11/ 60 CR/NC % F 1230-420 IEB 120C - ASSP CSE 122 WORKSHOP -- FRIDAY MEETING HELD IN IEB 120B & IEB 120C --"
+  },
+  {
+    "course": "CSE 197",
+    "sln": "12855",
+    "status": "Unknown",
+    "raw_string": ">12855 Y 1/2 T 230-420 IEB 120C Hickmon,Javon 22/ 25 CR/NC % F 1230-420 IEB 120B - ASSP CSE 123 WORKSHOP -- FRIDAY MEETING HELD IN IEB 120B & IEB 120C --"
+  },
+  {
+    "course": "CSE 197",
+    "sln": "12856",
+    "status": "Unknown",
+    "raw_string": ">12856 Z 1/2 T 1230-220 IEB 120C Wang,Matt 13/ 25 CR/NC % F 1230-420 * * -- STARS WORKSHOP -- FRIDAY MEETING HELD IN IEB 120B & IEB 120C --"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12857",
+    "status": "Closed",
+    "raw_string": "Restr 12857 A 4 MWF 1030-1120 CSE2 G20 Zatloukal,Kevin Closed 228/ 227"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12858",
+    "status": "Closed",
+    "raw_string": "12858 AA QZ TTh 830-920 ECE 042 Tsai,Aaron Ming-Hsuan Closed 29/ 29"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12859",
+    "status": "Closed",
+    "raw_string": "12859 AB QZ TTh 930-1020 JHN 022 Lee,Hansel Si-Ho Closed 34/ 34"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12860",
+    "status": "Closed",
+    "raw_string": "12860 AC QZ TTh 1030-1120 JHN 026 Scott,Jack Wade Closed 36/ 35"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12861",
+    "status": "Closed",
+    "raw_string": "12861 AD QZ TTh 1130-1220 THO 235 Fu,Alex Closed 31/ 30"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12862",
+    "status": "Closed",
+    "raw_string": "12862 AE QZ TTh 1230-120 ECE 045 Lee,Emma Closed 34/ 34"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12863",
+    "status": "Closed",
+    "raw_string": "12863 AF QZ TTh 230-320 ECE 037 Koblova,Anna Closed 34/ 34"
+  },
+  {
+    "course": "CSE 311",
+    "sln": "12864",
+    "status": "Closed",
+    "raw_string": "12864 AG QZ TTh 1130-1220 SAV 130 Petrbokova,Marie Eva Closed 30/ 30"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12865",
+    "status": "Open",
+    "raw_string": "Restr 12865 A 4 MWF 930-1020 ARC 147 Weber,Robbie Open 133/ 150 ADDITIONAL SPACES PENDING -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 16, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12866",
+    "status": "Open",
+    "raw_string": "12866 AA QZ Th 930-1020 MGH 254 Murad,Vlad Open 27/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12867",
+    "status": "Open",
+    "raw_string": "12867 AB QZ Th 1030-1120 ECE 042 Arugunta,Anika Open 28/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12868",
+    "status": "Closed",
+    "raw_string": "12868 AC QZ Th 1130-1220 THO 211 Ni,Cindy Jiajing Closed 29/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12869",
+    "status": "Open",
+    "raw_string": "12869 AD QZ Th 1230-120 JHN 026 Winston,Cleah Taryn Open 23/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12870",
+    "status": "Open",
+    "raw_string": "12870 AE QZ Th 130-220 MLR 316 Boseley,Owen Loy Open 22/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12871",
+    "status": "Open",
+    "raw_string": "12871 AF QZ Th 230-320 DEN 113 Zhu,Alice Open 4/ 5 J -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12872",
+    "status": "Open",
+    "raw_string": "Restr 12872 B 4 MWF 130-220 GWN 301 Weber,Robbie Open 165/ 172 -- ADDITIONAL SPACES PENDING -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 16, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12873",
+    "status": "Open",
+    "raw_string": "Restr 12873 BA QZ Th 1130-1220 THO 334 Pritamani,Vinay Open 26/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12874",
+    "status": "Open",
+    "raw_string": "Restr 12874 BB QZ Th 1230-120 THO 335 Huang,Emma Open 28/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12875",
+    "status": "Closed",
+    "raw_string": "Restr 12875 BC QZ Th 130-220 ECE 037 Hsu,Caleb J Closed 29/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12876",
+    "status": "Open",
+    "raw_string": "Restr 12876 BD QZ Th 230-320 THO 334 Anand,Aadi Open 28/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12877",
+    "status": "Open",
+    "raw_string": "Restr 12877 BE QZ Th 330-420 MGH 242 Greenlee,Isaiah Paul Open 28/ 29"
+  },
+  {
+    "course": "CSE 312",
+    "sln": "12878",
+    "status": "Open",
+    "raw_string": "Restr 12878 BF QZ Th 230-320 DEN 113 Zhu,Alice Open 26/ 27 J -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12879",
+    "status": "Open",
+    "raw_string": "Restr 12879 A 4 MWF 330-420 CSE2 G01 Wilcox,James Rasmussen Open 105/ 110 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12880",
+    "status": "Open",
+    "raw_string": "12880 AA QZ Th 1030-1120 THO 235 Wang,Lawrence Open 27/ 28"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12881",
+    "status": "Open",
+    "raw_string": "12881 AB QZ Th 1130-1220 MGH 241 Sherman,Kyle Open 25/ 28"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12882",
+    "status": "Open",
+    "raw_string": "12882 AC QZ Th 1230-120 MGH 287 Zhang,Daniel Open 26/ 27"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12883",
+    "status": "Closed",
+    "raw_string": "12883 AD QZ Th 930-1020 MGH 234 Le,Benoit Closed 27/ 27"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12884",
+    "status": "Open",
+    "raw_string": "Restr 12884 B 4 MWF 230-320 CSE2 G01 Wilcox,James Rasmussen Open 102/ 110 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 17, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12885",
+    "status": "Open",
+    "raw_string": "12885 BA QZ Th 1230-120 SAV 168 Kim,Lauren Open 25/ 27"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12886",
+    "status": "Closed",
+    "raw_string": "12886 BB QZ Th 130-220 SAV 168 Kim,Lauren Closed 28/ 28"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12887",
+    "status": "Open",
+    "raw_string": "12887 BC QZ Th 230-320 SAV 136 Ahmed,Faraz Open 26/ 27"
+  },
+  {
+    "course": "CSE 331",
+    "sln": "12888",
+    "status": "Open",
+    "raw_string": "12888 BD QZ Th 330-420 ECE 031 Seo,Audrey Lee Open 23/ 28"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12889",
+    "status": "Open",
+    "raw_string": "Restr 12889 A 4 MWF 1230-120 CSE2 G20 Brunelle,Nathan James Open 176/ 195 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 19, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12890",
+    "status": "Open",
+    "raw_string": "12890 AA QZ Th 830-920 MGH 287 Rajkotia,Kabir Open 17/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12891",
+    "status": "Open",
+    "raw_string": "12891 AB QZ Th 930-1020 MGH 271 Du,Albert Open 28/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12892",
+    "status": "Closed",
+    "raw_string": "12892 AC QZ Th 1030-1120 MLR 316 Whitmeyer,Michael Closed 30/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12893",
+    "status": "Closed",
+    "raw_string": "12893 AD QZ Th 1130-1220 LOW 105 Frank,Merav Ella Closed 30/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12894",
+    "status": "Open",
+    "raw_string": "12894 AE QZ Th 1230-120 THO 119 Cui,Jacklyn Open 27/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12895",
+    "status": "Open",
+    "raw_string": "12895 AF QZ Th 330-420 JHN 022 Lim,Zhi Yang Open 14/ 15 J AF/BD"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12896",
+    "status": "Closed",
+    "raw_string": "12896 AG QZ Th 1230-120 GLD 435 Whitmeyer,Michael Closed 30/ 30"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12897",
+    "status": "Open",
+    "raw_string": "Restr 12897 B 4 MWF 330-420 CSE2 G10 Brunelle,Nathan James Open 74/ 98 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 19, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12898",
+    "status": "Open",
+    "raw_string": "12898 BA QZ Th 1230-120 MLR 316 Nakura,Masa Open 21/ 27"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12899",
+    "status": "Open",
+    "raw_string": "12899 BB QZ Th 130-220 SAV 139 Smahi,Hana Open 27/ 28"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12900",
+    "status": "Open",
+    "raw_string": "12900 BC QZ Th 230-320 THO 234 Leffingwell,Andrew Open 17/ 28"
+  },
+  {
+    "course": "CSE 332",
+    "sln": "12901",
+    "status": "Open",
+    "raw_string": "12901 BD QZ Th 330-420 JHN 022 Lim,Zhi Yang Open 9/ 15 J AF/BD"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12902",
+    "status": "Open",
+    "raw_string": "Restr 12902 A 4 MWF 1130-1220 CSE2 G10 Hsia,Justin Open 102/ 105 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 18, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12904",
+    "status": "Open",
+    "raw_string": "12904 AB QZ Th 930-1020 MGH 287 Carroll,Menachem Mendel Open 22/ 25"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12905",
+    "status": "Closed",
+    "raw_string": "12905 AC QZ Th 1030-1120 BLD 392 Raghavan,Janani N. Closed 25/ 25"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12906",
+    "status": "Open",
+    "raw_string": "12906 AD QZ Th 1130-1220 MEB 251 Sun,Jessie Open 27/ 28"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12907",
+    "status": "Open",
+    "raw_string": "12907 AE QZ Th 1230-120 SAV 130 Tribble,Ally Open 26/ 27"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12908",
+    "status": "Open",
+    "raw_string": "Restr 12908 B 4 MWF 230-320 CSE2 G10 Hsia,Justin Open 99/ 105 -- FINAL EXAM TENTATIVELY PLANNED FOR MARCH 18, 2026, 12:30-2:20 PM --"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12909",
+    "status": "Open",
+    "raw_string": "12909 BA QZ Th 1230-120 MEB 251 Carroll,Menachem Mendel Open 25/ 26"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12910",
+    "status": "Open",
+    "raw_string": "12910 BB QZ Th 130-220 DEN 113 Diaz,Blake Open 26/ 27 J"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12911",
+    "status": "Closed",
+    "raw_string": "12911 BC QZ Th 230-320 THO 235 Monserate,Violet Closed 27/ 27"
+  },
+  {
+    "course": "CSE 333",
+    "sln": "12912",
+    "status": "Open",
+    "raw_string": "12912 BD QZ Th 330-420 BAG 331A Zhou,Grace Open 21/ 25"
+  },
+  {
+    "course": "CSE 341",
+    "sln": "12913",
+    "status": "Open",
+    "raw_string": "Restr 12913 A 4 MWF 930-1020 CSE2 G10 Reges,Stuart Open 62/ 90"
+  },
+  {
+    "course": "CSE 341",
+    "sln": "12914",
+    "status": "Open",
+    "raw_string": "12914 AA QZ Th 930-1020 CMU 228 Yang,Stanley Open 19/ 30"
+  },
+  {
+    "course": "CSE 341",
+    "sln": "12915",
+    "status": "Open",
+    "raw_string": "12915 AB QZ Th 1030-1120 DEN 258 Sharma,Udayan Open 24/ 30"
+  },
+  {
+    "course": "CSE 341",
+    "sln": "12916",
+    "status": "Open",
+    "raw_string": "12916 AC QZ Th 1230-120 DEN 113 Han,Eric Open 19/ 35"
+  },
+  {
+    "course": "CSE 344",
+    "sln": "12917",
+    "status": "Open",
+    "raw_string": "Restr 12917 A 4 MWF 930-1020 SAV 260 Tang,Hannah C Open 100/ 160"
+  },
+  {
+    "course": "CSE 344",
+    "sln": "12919",
+    "status": "Open",
+    "raw_string": "12919 AB QZ Th 930-1020 ECE 025 Kim,Jinmyung Kevin Open 29/ 32"
+  },
+  {
+    "course": "CSE 344",
+    "sln": "12920",
+    "status": "Open",
+    "raw_string": "12920 AC QZ Th 1030-1120 MGH 234 Singh,Rudra Prakash Open 24/ 32"
+  },
+  {
+    "course": "CSE 344",
+    "sln": "12921",
+    "status": "Open",
+    "raw_string": "12921 AD QZ Th 1130-1220 MGH 287 Singh,Rudra Prakash Open 25/ 32"
+  },
+  {
+    "course": "CSE 344",
+    "sln": "12922",
+    "status": "Open",
+    "raw_string": "12922 AE QZ Th 1230-120 SAV 166 Shen,Audrey Open 22/ 32"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12923",
+    "status": "Open",
+    "raw_string": "Restr 12923 A 4 MWF 1130-1220 GWN 301 Garza,Elba Open 187/ 194 J -- CSE MAJORS ONLY --"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12924",
+    "status": "Open",
+    "raw_string": "12924 AA QZ Th 830-920 MGH 254 Kausik,Neela Louise Open 29/ 31 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12925",
+    "status": "Open",
+    "raw_string": "12925 AB QZ Th 930-1020 JHN 026 Mangus,Anthony Albert Open 30/ 31 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12926",
+    "status": "Open",
+    "raw_string": "12926 AC QZ Th 1030-1120 MGH 242 Chen,Pollux Open 29/ 30 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12927",
+    "status": "Closed",
+    "raw_string": "12927 AD QZ Th 1130-1220 SAV 166 Rainbolt,Liander Closed 33/ 33 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12928",
+    "status": "Open",
+    "raw_string": "12928 AE QZ Th 1230-120 CMU 226 Bhatawdekar,Trisha Open 33/ 34 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12929",
+    "status": "Open",
+    "raw_string": "12929 AF QZ Th 1230-120 THO 134 Bakht,Kasra Open 33/ 35"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12930",
+    "status": "Open",
+    "raw_string": "Restr 12930 B 4 MWF 1130-1220 GWN 301 Garza,Elba Open 14/ 15 J -- ECE MAJORS ONLY --"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12931",
+    "status": "Closed",
+    "raw_string": "12931 BA QZ Th 830-920 MGH 254 Kausik,Neela Louise Closed 2/ 2 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12932",
+    "status": "Open",
+    "raw_string": "12932 BB QZ Th 930-1020 JHN 026 Mangus,Anthony Albert Open 3/ 4 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12933",
+    "status": "Closed",
+    "raw_string": "12933 BC QZ Th 1030-1120 MGH 242 Chen,Pollux Closed 3/ 3 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12934",
+    "status": "Closed",
+    "raw_string": "12934 BD QZ Th 1130-1220 SAV 166 Rainbolt,Liander Closed 3/ 3 J"
+  },
+  {
+    "course": "CSE 351",
+    "sln": "12935",
+    "status": "Closed",
+    "raw_string": "Restr 12935 BE QZ Th 1230-120 CMU 226 Bhatawdekar,Trisha Closed 3/ 3 J"
+  },
+  {
+    "course": "CSE 369",
+    "sln": "12936",
+    "status": "Open",
+    "raw_string": "Restr 12936 A 3 T 1130-1250 BAG 154 Alterman,Naomi Open 63/ 64 --- LAB SECTION REQUIREMENT: STUDENTS WILL NEED TO SCHEDULE WEEKLY 10-MINUTE DEMO SLOT WITH COURSE TAS ON WED OR THURS BETWEEN 2:30-5:20 PM. ---"
+  },
+  {
+    "course": "CSE 371",
+    "sln": "12937",
+    "status": "Open",
+    "raw_string": "Restr 12937 A 5 MW 1030-1220 SMI 102 Hussein,Rania Open 8/ 25 $50 J"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12938",
+    "status": "Open",
+    "raw_string": "Restr 12938 A 4 MWF 330-420 ARC 147 Lin,Kevin Open 109/ 210 CSE NON-MAJOR COURSE"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12939",
+    "status": "Open",
+    "raw_string": "12939 AA QZ Th 930-1020 THO 335 Liu,Sitong Open 15/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12940",
+    "status": "Open",
+    "raw_string": "12940 AB QZ Th 1030-1120 MEB 251 Liu,Sitong Open 19/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12941",
+    "status": "Open",
+    "raw_string": "12941 AC QZ Th 1130-1220 ECE 045 Ng,Christine Open 11/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12942",
+    "status": "Open",
+    "raw_string": "12942 AD QZ Th 1230-120 THO 135 Daharwal,Anusha Open 16/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12943",
+    "status": "Open",
+    "raw_string": "12943 AE QZ Th 130-220 MGH 242 Tang,Sophia Open 24/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12944",
+    "status": "Open",
+    "raw_string": "12944 AF QZ Th 230-320 SAV 139 Yu,Daniel Open 12/ 30"
+  },
+  {
+    "course": "CSE 373",
+    "sln": "12945",
+    "status": "Open",
+    "raw_string": "12945 AG QZ Th 330-420 SAV 139 Khotemlyansky,Laura Open 12/ 30"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12951",
+    "status": "Open",
+    "raw_string": "Restr 12951 C 4 MWF 1130-1220 ECE 037 Reges,Stuart Open 17/ 50 -- C++ PROGRAMMING -- (OPEN TO NON-CSE MAJORS) PRACTICAL COURSE COVERING THE MAJOR FEATURES OF THE C++ PROGRAMMING LANGUAGE. TOPICS INCLUDE CONTROL STRUCTURES, PRIMITIVE DATA, POINTERS, REFERENCES, ARRAYS, STRINGS, STRUCTS, CLASSES, THE MANY USES OF CONST, INHERITANCE, OPERATOR OVERLOADING, AND USE OF THE STANDARD TEMPLATE LIBRARY (STL) PREREQUISITE: CSE 143 OR CSE 123"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12952",
+    "status": "Open",
+    "raw_string": "12952 CA QZ Th 130-220 BNS 117 Jamilov,Attila Open 17/ 50 CSE 390C QUIZ SECTION"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "22168",
+    "status": "Unknown",
+    "raw_string": ">22168 F 2 T 330-520 CSE2 G01 McCoy,Travis 14/ 40 CR/NC -- TECHNOLOGY FOR CLIMATE-CHANGE (SEMINAR WILL BE CR/NC) -- ADD CODES AND MORE INFO: TINYURL.COM/CSE390F-WI26 (COPY/PASTE INTO BROWSER) --"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12953",
+    "status": "Open",
+    "raw_string": "12953 H 1 to be arranged Open 19/ 50 CR/NC H -- CSE 12X HONORS SEMINAR -- HONORS STUDENTS ONLY --"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12954",
+    "status": "Open",
+    "raw_string": "12954 HA SM Th 330-450 SAV 166 Wang,Matt Open 4/ 25 H CSE 122 HONORS SEMINAR -- COURSE TIME SUBJECT TO CHANGE"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12955",
+    "status": "Open",
+    "raw_string": "12955 HB SM T 330-450 JHN 026 Garza,Elba Open 15/ 24 H CSE 123 HONORS SEMINAR --"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12956",
+    "status": "Unknown",
+    "raw_string": ">12956 Z 1 to be arranged Elkin,Lisa 27/ 35 CR/NC -- MATHEMATICS FOR COMPUTATION WORKSHOP -- ADD CODES AND MORE INFO: TINYURL.COM/CSE390Z-WI26 (COPY/PASTE INTO BROWSER) --"
+  },
+  {
+    "course": "CSE 390",
+    "sln": "12957",
+    "status": "Unknown",
+    "raw_string": ">12957 ZA QZ T 330-520 LOW 102 27/ 35"
+  },
+  {
+    "course": "CSE 391",
+    "sln": "12959",
+    "status": "Open",
+    "raw_string": "Restr 12959 A 1 T 130-220 CSE2 G20 Anderson,Ruth Open 112/ 150 CR/NC J CSE MAJORS ONLY"
+  },
+  {
+    "course": "CSE 391",
+    "sln": "12960",
+    "status": "Open",
+    "raw_string": "Restr 12960 B 1 T 130-220 CSE2 G20 Anderson,Ruth Open 5/ 22 CR/NC J -- ECE MAJORS ONLY CONCURRENT ENROLLMENT IN CSE 351 REQUIRED --"
+  },
+  {
+    "course": "CSE 403",
+    "sln": "12961",
+    "status": "Open",
+    "raw_string": "Restr 12961 A 4 MWF 1230-120 CSE2 G10 Alverson,Gail Open 73/ 100"
+  },
+  {
+    "course": "CSE 403",
+    "sln": "12962",
+    "status": "Open",
+    "raw_string": "12962 AA QZ TTh 130-220 CSE2 G10 Cobden,Graham Yunhai Open 73/ 100"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12963",
+    "status": "Open",
+    "raw_string": "Restr 12963 A 4 MW 330-450 SIG 134 Wolman,Tal Open 100/ 108 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12964",
+    "status": "Open",
+    "raw_string": "12964 AA QZ Th 1230-120 ECE 025 Wang,Amy Open 24/ 27 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12965",
+    "status": "Open",
+    "raw_string": "12965 AB QZ Th 130-220 SAV 137 Pronin,Mikhail Andreyevich Open 26/ 27 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12966",
+    "status": "Closed",
+    "raw_string": "12966 AC QZ Th 230-320 ECE 031 Tiwari,Arjun Closed 27/ 27 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12967",
+    "status": "Open",
+    "raw_string": "12967 AD QZ Th 330-420 ECE 026 Fowler,Tia-Jane Zhang Open 23/ 27 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12968",
+    "status": "Open",
+    "raw_string": "12968 B 4 MW 330-450 SIG 134 Wolman,Tal Open 4/ 10 J -- DATA SCIENCE STUDENTS --"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12969",
+    "status": "Open",
+    "raw_string": "12969 BA QZ Th 1230-120 ECE 025 Wang,Amy Open 1/ 4 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12970",
+    "status": "Open",
+    "raw_string": "12970 BB QZ Th 130-220 SAV 137 Pronin,Mikhail Andreyevich Open 0/ 4 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12971",
+    "status": "Open",
+    "raw_string": "12971 BC QZ Th 230-320 ECE 031 Tiwari,Arjun Open 2/ 4 J"
+  },
+  {
+    "course": "CSE 412",
+    "sln": "12972",
+    "status": "Open",
+    "raw_string": "12972 BD QZ Th 330-420 ECE 026 Fowler,Tia-Jane Zhang Open 1/ 4 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12973",
+    "status": "Open",
+    "raw_string": "Restr 12973 A 4 MWF 130-220 JHN 102 Maas,Ryan Open 143/ 150 J -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12974",
+    "status": "Open",
+    "raw_string": "12974 AA QZ Th 1130-1220 ARC G070 Patel,Sarju Open 28/ 30 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12975",
+    "status": "Open",
+    "raw_string": "12975 AB QZ Th 1230-120 ARC G070 Agarwal,Vinamra Open 29/ 30 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12976",
+    "status": "Open",
+    "raw_string": "12976 AC QZ Th 130-220 ECE 042 Malpani,Anushka Open 27/ 30 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12977",
+    "status": "Closed",
+    "raw_string": "12977 AD QZ Th 230-320 JHN 022 Prijatna,Rachel Victoria Closed 30/ 30 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12978",
+    "status": "Open",
+    "raw_string": "12978 AE QZ Th 330-420 MGH 254 Parasnis,Anupritaa Amit Open 29/ 30 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12979",
+    "status": "Open",
+    "raw_string": "Restr 12979 B 4 MWF 130-220 JHN 102 Maas,Ryan Open 8/ 15 J -- DATA SCIENCE STUDENTS -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12980",
+    "status": "Closed",
+    "raw_string": "12980 BA QZ Th 1130-1220 ARC G070 Patel,Sarju Closed 2/ 2 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12981",
+    "status": "Closed",
+    "raw_string": "12981 BB QZ Th 1230-120 ARC G070 Agarwal,Vinamra Closed 2/ 2 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12982",
+    "status": "Open",
+    "raw_string": "12982 BC QZ Th 130-220 ECE 042 Malpani,Anushka Open 1/ 2 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12983",
+    "status": "Open",
+    "raw_string": "12983 BD QZ Th 230-320 JHN 022 Prijatna,Rachel Victoria Open 1/ 2 J"
+  },
+  {
+    "course": "CSE 414",
+    "sln": "12984",
+    "status": "Closed",
+    "raw_string": "12984 BE QZ Th 330-420 MGH 254 Parasnis,Anupritaa Amit Closed 2/ 2 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12985",
+    "status": "Open",
+    "raw_string": "Restr 12985 A 4 WF 330-450 CSE2 G20 Taeb,Armeen Open 53/ 60 J -- FOR NON-ALLEN SCHOOL MAJOR STUDENTS -- PREREQ WAIVERS WILL BE GIVEN STARTING PERIOD 2. TO REQUEST A PREREQ WAIVER FILL OUT THE FORM: BIT.LY/STAT-CSE-416-WIN-2026 (COPY/PASTE LINK INTO BROWSER) FAQ: BIT.LY/STAT-CSE-416-FAQ --"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12986",
+    "status": "Open",
+    "raw_string": "12986 AA QZ Th 1230-120 LOW 205 Open 10/ 12 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12987",
+    "status": "Closed",
+    "raw_string": "12987 AB QZ Th 130-220 MEB 251 Closed 12/ 12 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12988",
+    "status": "Open",
+    "raw_string": "12988 AC QZ Th 230-320 MLR 316 Open 10/ 12 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12989",
+    "status": "Open",
+    "raw_string": "12989 AD QZ Th 330-420 ECE 003 Open 10/ 12 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12990",
+    "status": "Open",
+    "raw_string": "12990 AE QZ Th 330-420 SAV 130 Open 11/ 13 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12991",
+    "status": "Open",
+    "raw_string": "Restr 12991 B 4 WF 330-450 CSE2 G20 Open 10/ 15 J -- FOR DATA SCIENCE STUDENTS -- PREREQ WAIVERS WILL BE GIVEN STARTING PERIOD 2. TO REQUEST A PREREQ WAIVER FILL OUT THE FORM: BIT.LY/STAT-CSE-416-WIN-2026 (COPY/PASTE LINK INTO BROWSER) FAQ: BIT.LY/STAT-CSE-416-FAQ --"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12992",
+    "status": "Closed",
+    "raw_string": "12992 BA QZ Th 1230-120 LOW 205 Closed 4/ 4 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12993",
+    "status": "Open",
+    "raw_string": "12993 BB QZ Th 130-220 MEB 251 Open 3/ 4 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12994",
+    "status": "Open",
+    "raw_string": "12994 BC QZ Th 230-320 MLR 316 Open 0/ 4 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12995",
+    "status": "Open",
+    "raw_string": "12995 BD QZ Th 330-420 ECE 003 Open 3/ 4 J"
+  },
+  {
+    "course": "CSE 416",
+    "sln": "12996",
+    "status": "Open",
+    "raw_string": "12996 BE QZ Th 330-420 SAV 130 Open 0/ 4 J"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "12997",
+    "status": "Open",
+    "raw_string": "Restr 12997 A 3 MWF 130-220 CSE2 G20 Nirkhe,Chinmay Open 61/ 185 -- CSE 421 WILL BE OFFERED FOR 4 CREDITS IN WIN 2026; STUDENTS SHOULD REGISTER FOR CSE 490D FOR 4TH CREDIT --"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "12998",
+    "status": "Open",
+    "raw_string": "Restr 12998 AA QZ Th 1030-1120 ECE 025 Skoumios,Nikos Open 9/ 35"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "12999",
+    "status": "Open",
+    "raw_string": "Restr 12999 AB QZ Th 1130-1220 MLR 316 Huang,Shayla Open 8/ 30"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "13000",
+    "status": "Open",
+    "raw_string": "Restr 13000 AC QZ Th 1230-120 DEN 213 Gupta,Shreya Open 14/ 35"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "13001",
+    "status": "Open",
+    "raw_string": "Restr 13001 AD QZ Th 130-220 ECE 031 Thornburg,Toby Open 16/ 30"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "13002",
+    "status": "Open",
+    "raw_string": "Restr 13002 AE QZ Th 230-320 BNS 117 Thornburg,Toby Open 8/ 30"
+  },
+  {
+    "course": "CSE 421",
+    "sln": "13003",
+    "status": "Open",
+    "raw_string": "Restr 13003 AF QZ Th 330-420 MGH 228 Dharmadhikari,Jay Open 7/ 35"
+  },
+  {
+    "course": "CSE 422",
+    "sln": "13004",
+    "status": "Open",
+    "raw_string": "Restr 13004 A 3 TTh 1130-1250 CSE2 G10 LI,JERRY ZHENG Open 62/ 80"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13005",
+    "status": "Open",
+    "raw_string": "Restr 13005 A 5 TTh 1000-1120 CSE2 G10 Zhang,Amy Xian Open 40/ 48 J"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13006",
+    "status": "Open",
+    "raw_string": "Restr 13006 AA QZ F 1130-1220 MGH 058 Lewis,Aaleyah Brianna Open 17/ 24 J"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13007",
+    "status": "Open",
+    "raw_string": "Restr 13007 AB QZ F 130-220 MGH 058 Lewis,Aaleyah Brianna Open 23/ 24 J"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13008",
+    "status": "Unknown",
+    "raw_string": ">13008 B 5 TTh 1000-1120 CSE2 G10 Zhang,Amy Xian 1/ 12 J -- OTHER MAJORS AND OVERLOAD BY PERMISSION OF INSTRUCTOR, APPLICATION AT: HTTP://TINY.CC/UWCSE440 (CUT AND PASTE INTO BROWSER) --"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13009",
+    "status": "Unknown",
+    "raw_string": ">13009 BA QZ F 1130-1220 MGH 058 Lewis,Aaleyah Brianna 1/ 6 J"
+  },
+  {
+    "course": "CSE 440",
+    "sln": "13010",
+    "status": "Unknown",
+    "raw_string": ">13010 BB QZ F 130-220 MGH 058 Lewis,Aaleyah Brianna 0/ 6 J"
+  },
+  {
+    "course": "CSE 442",
+    "sln": "13011",
+    "status": "Open",
+    "raw_string": "Restr 13011 A 4 TTh 1130-1250 CSE2 G20 Heer,Jeffrey Open 143/ 155"
+  },
+  {
+    "course": "CSE 443",
+    "sln": "13012",
+    "status": "Open",
+    "raw_string": "Restr 13012 A 4 MWF 130-220 CSE2 G10 Mankoff,J. Open 31/ 60 % OPTIONAL WRITING (W) CREDIT AVAILABLE"
+  },
+  {
+    "course": "CSE 443",
+    "sln": "13013",
+    "status": "Open",
+    "raw_string": "13013 AA QZ Th 130-220 MEB 250 MARTINEZ,JESSE Open 17/ 30 %"
+  },
+  {
+    "course": "CSE 443",
+    "sln": "13014",
+    "status": "Open",
+    "raw_string": "13014 AB QZ Th 230-320 ECE 042 MARTINEZ,JESSE Open 14/ 30 %"
+  },
+  {
+    "course": "CSE 444",
+    "sln": "13015",
+    "status": "Open",
+    "raw_string": "Restr 13015 A 4 MWF 1030-1120 IEB G109 Maas,Ryan Open 99/ 120 J"
+  },
+  {
+    "course": "CSE 444",
+    "sln": "13016",
+    "status": "Open",
+    "raw_string": "13016 AA QZ Th 1130-1220 JHN 022 Bhatti,Hisham Open 28/ 30 J"
+  },
+  {
+    "course": "CSE 444",
+    "sln": "13017",
+    "status": "Open",
+    "raw_string": "13017 AB QZ Th 1230-120 LOW 106 Baturytski,Ann Open 23/ 31 J"
+  },
+  {
+    "course": "CSE 444",
+    "sln": "13018",
+    "status": "Open",
+    "raw_string": "13018 AC QZ Th 130-220 JHN 026 Handoyo,Angelina Deo Open 27/ 30 J"
+  },
+  {
+    "course": "CSE 444",
+    "sln": "13019",
+    "status": "Open",
+    "raw_string": "13019 AD QZ Th 230-320 MEB 251 Cao,Jerry Open 21/ 29 J"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13020",
+    "status": "Open",
+    "raw_string": "Restr 13020 A 4 MW 900-1020 CSE2 G20 Golub,Matt Open 134/ 173 J"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13021",
+    "status": "Open",
+    "raw_string": "13021 AA QZ Th 830-920 ECE 031 Li,Lillian Open 12/ 30"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13022",
+    "status": "Open",
+    "raw_string": "13022 AB QZ Th 930-1020 ECE 042 Li,Lillian Open 24/ 30"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13023",
+    "status": "Open",
+    "raw_string": "13023 AC QZ Th 1030-1120 ECE 031 Azuh Mensah,Emmanuel Open 21/ 30"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13024",
+    "status": "Open",
+    "raw_string": "13024 AD QZ Th 1130-1220 MGH 242 Zhang,Yufei Open 27/ 30"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13025",
+    "status": "Open",
+    "raw_string": "13025 AE QZ Th 1230-120 MGH 242 Harilal,Sankar Vaishnav Open 26/ 30"
+  },
+  {
+    "course": "CSE 446",
+    "sln": "13026",
+    "status": "Open",
+    "raw_string": "13026 AF QZ Th 130-220 THO 335 Sathish,Vishwas Open 24/ 30"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13027",
+    "status": "Open",
+    "raw_string": "Restr 13027 A 4 TTh 1000-1120 CSE2 G20 Minneker,Robert Open 148/ 167 J"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13028",
+    "status": "Open",
+    "raw_string": "13028 AA QZ to be arranged * * Open 30/ 35 -- QZ SECTIONS DO NOT MEET WI26 --"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13029",
+    "status": "Open",
+    "raw_string": "13029 AB QZ to be arranged * * Open 24/ 30 -- QZ SECTIONS DO NOT MEET WI26 --"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13030",
+    "status": "Open",
+    "raw_string": "13030 AC QZ to be arranged * * Open 33/ 35 -- QZ SECTIONS DO NOT MEET WI26 --"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13031",
+    "status": "Open",
+    "raw_string": "13031 AD QZ to be arranged * * Open 34/ 35 -- QZ SECTIONS DO NOT MEET WI26 --"
+  },
+  {
+    "course": "CSE 447",
+    "sln": "13032",
+    "status": "Open",
+    "raw_string": "13032 AE QZ to be arranged * * Open 27/ 35 -- QZ SECTIONS DO NOT MEET WI26 --"
+  },
+  {
+    "course": "CSE 451",
+    "sln": "13033",
+    "status": "Open",
+    "raw_string": "Restr 13033 A 4 MWF 1130-1220 CSE2 G01 Kimura,Gary Open 109/ 110 -- OPTIONAL W CREDIT OFFERED --"
+  },
+  {
+    "course": "CSE 451",
+    "sln": "13034",
+    "status": "Open",
+    "raw_string": "13034 AA QZ Th 1230-120 BNS 117 Muhammad,Aliyan Open 36/ 37"
+  },
+  {
+    "course": "CSE 451",
+    "sln": "13035",
+    "status": "Closed",
+    "raw_string": "13035 AB QZ Th 130-220 ARC G070 Crouse,Zack Closed 38/ 38"
+  },
+  {
+    "course": "CSE 451",
+    "sln": "13036",
+    "status": "Closed",
+    "raw_string": "13036 AC QZ Th 230-320 MGH 234 Trinh,Jonathan Closed 35/ 35"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13037",
+    "status": "Open",
+    "raw_string": "Restr 13037 A 4 MWF 1130-1220 JHN 102 Wang,Stephanie Open 142/ 162 J -- OPTIONAL W CREDIT OFFERED --"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13038",
+    "status": "Open",
+    "raw_string": "13038 AA QZ Th 1230-120 LOW 105 Gustafson,Parker Open 31/ 33 J"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13039",
+    "status": "Open",
+    "raw_string": "13039 AB QZ Th 130-220 MGH 287 Kaushik,Samarjit Krishna Open 31/ 32 J"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13040",
+    "status": "Open",
+    "raw_string": "13040 AC QZ Th 230-320 JHN 026 Li,Claire Open 30/ 33 J"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13041",
+    "status": "Open",
+    "raw_string": "13041 AD QZ Th 330-420 LOW 102 Xu,Jiexiao Open 29/ 32 J"
+  },
+  {
+    "course": "CSE 452",
+    "sln": "13042",
+    "status": "Open",
+    "raw_string": "13042 AE QZ Th 930-1020 MEB 242 Kunisetty,Eesha Sree Open 21/ 32 J -- OPEN FOR REGISTRATION --"
+  },
+  {
+    "course": "CSE 457",
+    "sln": "13043",
+    "status": "Open",
+    "raw_string": "Restr 13043 A 4 TTh 1130-1250 CSE2 G01 Curless,Brian Open 67/ 95"
+  },
+  {
+    "course": "CSE 460",
+    "sln": "13044",
+    "status": "Unknown",
+    "raw_string": ">13044 A 5 MTWThF 1130-1220 * Mones,Barbara 16/ 30"
+  },
+  {
+    "course": "CSE 461",
+    "sln": "13045",
+    "status": "Open",
+    "raw_string": "Restr 13045 A 4 MWF 1230-120 CSE2 G01 Gollakota,Shyam Open 103/ 105"
+  },
+  {
+    "course": "CSE 461",
+    "sln": "13046",
+    "status": "Closed",
+    "raw_string": "13046 AA QZ Th 130-220 MGH 238 Closed 35/ 35"
+  },
+  {
+    "course": "CSE 461",
+    "sln": "13047",
+    "status": "Closed",
+    "raw_string": "13047 AB QZ Th 230-320 MGH 287 Closed 35/ 35"
+  },
+  {
+    "course": "CSE 461",
+    "sln": "13048",
+    "status": "Open",
+    "raw_string": "13048 AC QZ Th 330-420 MGH 234 Open 33/ 35"
+  },
+  {
+    "course": "CSE 469",
+    "sln": "13049",
+    "status": "Open",
+    "raw_string": "Restr 13049 A 5 MW 1030-1220 MGH 241 Oskin,Mark H. Open 6/ 10 J"
+  },
+  {
+    "course": "CSE 473",
+    "sln": "13050",
+    "status": "Open",
+    "raw_string": "Restr 13050 A 3 MWF 230-320 CSE2 G20 Kessler Faulkner,Taylor Open 153/ 170"
+  },
+  {
+    "course": "CSE 474",
+    "sln": "13051",
+    "status": "Closed",
+    "raw_string": "Restr 13051 A 4 TTh 1230-220 MOR 220 Iyer,Vikram Closed 21/ 20 $50 J"
+  },
+  {
+    "course": "CSE 475",
+    "sln": "13052",
+    "status": "Open",
+    "raw_string": "Restr 13052 A 5 MW 1230-220 ECE 037 Hussein,Rania Open 3/ 7 $50 J"
+  },
+  {
+    "course": "CSE 478",
+    "sln": "13053",
+    "status": "Open",
+    "raw_string": "Restr 13053 A 4 MWF 830-920 CSE2 G01 Gupta,Abhishek Open 40/ 43 -- LAB TIMES ARE FLEXIBLE AND UNSCHEDULED. STUDENTS MAY REGISTER EITHER SECTION. --"
+  },
+  {
+    "course": "CSE 478",
+    "sln": "13054",
+    "status": "Open",
+    "raw_string": "13054 AA QZ Th 130-220 * Open 20/ 21"
+  },
+  {
+    "course": "CSE 478",
+    "sln": "13055",
+    "status": "Open",
+    "raw_string": "13055 AB QZ Th 230-320 * Open 20/ 22"
+  },
+  {
+    "course": "CSE 480",
+    "sln": "13056",
+    "status": "Open",
+    "raw_string": "Restr 13056 A 2 TTh 1130-1220 OUG 141 Weichert,James Open 39/ 60 CR/NC"
+  },
+  {
+    "course": "CSE 481",
+    "sln": "13057",
+    "status": "Open",
+    "raw_string": "Restr 13057 D 5 TTh 1130-1250 MGH 058 Popovic,Zoran Open 27/ 30 GAMES CAPSTONE"
+  },
+  {
+    "course": "CSE 481",
+    "sln": "13058",
+    "status": "Open",
+    "raw_string": "Restr 13058 L 5 TTh 1000-1120 MGH 058 Fogarty,James Open 23/ 30 -- HUMAN-AI INTERACTION CAPSTONE -- ADDITIONAL PREREQUISITES: EITHER CSE 340, CSE 440, HCDE 318, OR INFO 360 --"
+  },
+  {
+    "course": "CSE 481",
+    "sln": "13059",
+    "status": "Open",
+    "raw_string": "Restr 13059 V 5 T 1230-150 * * Kemelmacher-Shlizerman,Ira Open 26/ 32 Th 1230-320 * * -- VR CAPSTONE --"
+  },
+  {
+    "course": "CSE 484",
+    "sln": "13060",
+    "status": "Open",
+    "raw_string": "Restr 13060 A 4 MWF 1030-1120 GWN 301 Radka,Basia Open 147/ 160 J"
+  },
+  {
+    "course": "CSE 484",
+    "sln": "13061",
+    "status": "Open",
+    "raw_string": "13061 AA QZ Th 1230-120 MEB 242 Wong,Henry Chiyang Open 39/ 40 J"
+  },
+  {
+    "course": "CSE 484",
+    "sln": "13062",
+    "status": "Closed",
+    "raw_string": "13062 AB QZ Th 130-220 MEB 242 Iurco,Alexandra Closed 40/ 40 J"
+  },
+  {
+    "course": "CSE 484",
+    "sln": "13063",
+    "status": "Open",
+    "raw_string": "13063 AC QZ Th 230-320 MOR 234 Ballesteros,Antonio Girald Open 39/ 40 J"
+  },
+  {
+    "course": "CSE 484",
+    "sln": "13064",
+    "status": "Open",
+    "raw_string": "13064 AD QZ Th 330-420 MOR 234 Bhuller,Anmol Kaur Open 29/ 40 J"
+  },
+  {
+    "course": "CSE 490",
+    "sln": "13065",
+    "status": "Open",
+    "raw_string": "Restr 13065 A 4 MW 1030-1220 DEM 004 Open 8/ 10 J -- SOFTWARE ENTREPRENEURSHIP OFFERED JOINTLY WITH ENTRE 432 A --"
+  },
+  {
+    "course": "CSE 490",
+    "sln": "13066",
+    "status": "Unknown",
+    "raw_string": ">13066 A1 2 T 330-450 * * Etzioni,Oren 27/ 40 -- BIG IDEAS IN AI -- ADD CODES AND MORE INFO: TINYURL.COM/CSE490A1-WI26 (COPY/PASTE INTO BROWSER) --"
+  },
+  {
+    "course": "CSE 490",
+    "sln": "13068",
+    "status": "Open",
+    "raw_string": "Restr 13068 D 1 to be arranged Open 48/ 150 -- 421 QUIZ SECTION CREDIT -- CONCURRENT REGISTRATION IN CSE 421 REQUIRED --"
+  },
+  {
+    "course": "CSE 492",
+    "sln": "13070",
+    "status": "Open",
+    "raw_string": "Restr 13070 F 1 T 400-520 IEB G109 Wolman,Ori Open 24/ 50 CR/NC -- PROGRAM MANAGEMENT --"
+  },
+  {
+    "course": "CSE 492",
+    "sln": "13071",
+    "status": "Open",
+    "raw_string": "Restr 13071 J 1 M 1230-120 IEB G106 Nguyen,Kim Open 85/ 90 CR/NC -- CAREER SEMINAR --"
+  },
+  {
+    "course": "CSE 492",
+    "sln": "13072",
+    "status": "Open",
+    "raw_string": "Restr 13072 L 1 T 130-220 CSE2 G01 Grossman,Dan Open 50/ 75 CR/NC ALUMNI CAREER EXPERIENCE SEMINAR"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13074",
+    "status": "Unknown",
+    "raw_string": ">13074 C 4 MW 1000-1120 ECE 042 Thachuk,Chris 23/ 25 % MOLECULAR COMP."
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13075",
+    "status": "Closed",
+    "raw_string": "13075 CA LB Th 1030-1220 * * Thachuk,Chris Closed 11/ 10 %"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "22446",
+    "status": "Closed",
+    "raw_string": "22446 CB LB Th 830-1020 * * Thachuk,Chris Closed 12/ 10 %"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13076",
+    "status": "Open",
+    "raw_string": "Restr 13076 G 4 TTh 1000-1120 CSE2 G01 Farhadi,Ali Open 89/ 106 %J DEEP LEARNING"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13077",
+    "status": "Open",
+    "raw_string": "13077 GA QZ F 930-1020 SMI 211 Yadav,Tanush Open 40/ 52 %J"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13078",
+    "status": "Open",
+    "raw_string": "13078 GB QZ F 1230-120 JHN 075 Yadav,Tanush Open 49/ 54 %J"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13080",
+    "status": "Open",
+    "raw_string": "Restr 13080 L 4 MWF 1030-1120 CSE2 G10 Giordano,Matthew Open 48/ 50 % -- CONCURRENCY, PARALLELISM, AND RUST -- ADDITIONAL PREREQUISITE: CSE 333 --"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13081",
+    "status": "Open",
+    "raw_string": "13081 LA QZ Th 1230-120 MEB 250 Ianchenko,Oleg Open 24/ 25 %"
+  },
+  {
+    "course": "CSE 493",
+    "sln": "13082",
+    "status": "Open",
+    "raw_string": "13082 LB QZ Th 130-220 MUE 154 Anforowicz,Marcin Open 24/ 25 %"
+  },
+  {
+    "course": "CSE 494",
+    "sln": "13083",
+    "status": "Unknown",
+    "raw_string": ">13083 A 3/4 Th 1030-1120 ECE 125 Battle,Leilani 103/ 107 CR/NC %"
+  },
+  {
+    "course": "CSE 495",
+    "sln": "13084",
+    "status": "Unknown",
+    "raw_string": ">13084 A 1-5 to be arranged 1/ 25"
+  },
+  {
+    "course": "CSE 496",
+    "sln": "13085",
+    "status": "Unknown",
+    "raw_string": "IS >13085 A 1-9 to be arranged 19/ 50E H"
+  },
+  {
+    "course": "CSE 498",
+    "sln": "13086",
+    "status": "Unknown",
+    "raw_string": "IS >13086 A 1-9 to be arranged 64/ 50E"
+  },
+  {
+    "course": "CSE 499",
+    "sln": "13087",
+    "status": "Unknown",
+    "raw_string": "IS >13087 A 1-24 to be arranged 45/ 10E CR/NC"
+  },
+  {
+    "course": "CSE 503",
+    "sln": "13088",
+    "status": "Open",
+    "raw_string": "Restr 13088 A 4 WF 1130-1250 * * Ernst,Michael D Open 8/ 30"
+  },
+  {
+    "course": "CSE 515",
+    "sln": "13089",
+    "status": "Open",
+    "raw_string": "Restr 13089 A 4 WF 1000-1120 ECE 045 Oh,Sewoong Open 29/ 50"
+  },
+  {
+    "course": "CSE 517",
+    "sln": "13090",
+    "status": "Open",
+    "raw_string": "Restr 13090 A 4 TTh 1000-1120 CSE2 G20 Minneker,Robert Open 61/ 64 J"
+  },
+  {
+    "course": "CSE 520",
+    "sln": "13094",
+    "status": "Open",
+    "raw_string": "Restr 13094 A 1 TTh 330-520 CSE2 G20 Open 69/ 230 CR/NC"
+  },
+  {
+    "course": "CSE 520",
+    "sln": "13097",
+    "status": "Unknown",
+    "raw_string": ">13097 D 1 M 430-720P CSE2 G01 2/ 100 CR/NC Th 430-620P CSE2 G01 TBA"
+  },
+  {
+    "course": "CSE 527",
+    "sln": "22098",
+    "status": "Open",
+    "raw_string": "Restr 22098 A 4 TTh 1000-1120 * * Lee,Su-In Open 32/ 45"
+  },
+  {
+    "course": "CSE 541",
+    "sln": "13098",
+    "status": "Open",
+    "raw_string": "Restr 13098 A 4 WF 1130-1250 LOW 102 JAMIESON,KEVIN G Open 31/ 40"
+  },
+  {
+    "course": "CSE 546",
+    "sln": "13099",
+    "status": "Open",
+    "raw_string": "Restr 13099 A 4 MW 900-1020 CSE2 G20 Golub,Matt Open 45/ 59 J"
+  },
+  {
+    "course": "CSE 549",
+    "sln": "13100",
+    "status": "Open",
+    "raw_string": "Restr 13100 A 4 WF 1130-1250 ECE 003 Taylor,Michael Bedford Open 3/ 15 J"
+  },
+  {
+    "course": "CSE 554",
+    "sln": "13101",
+    "status": "Closed",
+    "raw_string": "Restr 13101 A 4 MW 1000-1120 SIG 134 Kasikci,Baris Closed 46/ 40 %"
+  },
+  {
+    "course": "CSE 564",
+    "sln": "13102",
+    "status": "Open",
+    "raw_string": "Restr 13102 A 4 MW 1000-1120 ECE 003 Kohlbrenner,David Open 11/ 40"
+  },
+  {
+    "course": "CSE 567",
+    "sln": "22101",
+    "status": "Closed",
+    "raw_string": "Restr 22101 A 4 MWF 230-350 IEB 201 Closed 5/ 5 J"
+  },
+  {
+    "course": "CSE 571",
+    "sln": "13103",
+    "status": "Closed",
+    "raw_string": "Restr 13103 A 4 TTh 1000-1120 * * Fox,Dieter Closed 36/ 35"
+  },
+  {
+    "course": "CSE 578",
+    "sln": "13104",
+    "status": "Open",
+    "raw_string": "Restr 13104 A 4 MWF 1130-1250 IEB 205 Charisopoulos,Vasilis Open 4/ 10 J"
+  },
+  {
+    "course": "CSE 581",
+    "sln": "13106",
+    "status": "Open",
+    "raw_string": "Restr 13106 A 4 TTh 1130-1250 * * Reinecke,Katharina Open 20/ 33"
+  },
+  {
+    "course": "CSE 589",
+    "sln": "13108",
+    "status": "Unknown",
+    "raw_string": ">13108 A 4 W 600-930P PCAR 291 Gottesman,Greg 36/ 50 J ENROLLMENT BY APPLICATION ONLY. LINK TO COURSE ENROLLMENT APPLICATION IS ON COURSE WEBSITE: HTTPS://TINYURL.COM/CSE589-26WI"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13109",
+    "status": "Open",
+    "raw_string": "Restr 13109 A 1 F 130-220 * * JAMIESON,KEVIN G Open 9/ 45 CR/NC R -- IFDS SEMINAR: FOUNDATIONS OF MACHINE LEARNING AND AI --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "22414",
+    "status": "Open",
+    "raw_string": "Restr 22414 B 1 F 1200-1250 * * Bernstein,Gilbert L Open 3/ 25 CR/NC R"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13110",
+    "status": "Open",
+    "raw_string": "Restr 13110 C 1-3 T 100-150 CSE 305 Lee,Su-In Open 10/ 25E CR/NC COMPUTATIONAL BIOLOGY TUESDAYS 1:00-1:50"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "22248",
+    "status": "Open",
+    "raw_string": "Restr 22248 D1 1 T 1030-1120 * * Shapiro,Ben Open 9/ 25 CR/NC -- COMPUTING AND LEARNING -- CSE, INFO, HCDE AND EDUC PHD STUDENTS ONLY -- CSE MS AND OTHER MAJORS BY PERMISSION OF INSTRUCTOR --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13113",
+    "status": "Open",
+    "raw_string": "Restr 13113 E 1 Th 1030-1120 * * Anderson,Ruth Open 15/ 30 CR/NC COURSE MEETS IN ROOM CSE2 371 -- COMPUTER SCIENCE EDUCATION SEMINAR (1 CREDIT ONLY) UNDERGRADS WELCOME W/PERMISSION; -- PLEASE FILL OUT THIS FORM (COPY & PASTE URL INTO BROWSER): HTTPS:/TINYURL.COM/590E-INTEREST --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13115",
+    "status": "Open",
+    "raw_string": "Restr 13115 H 1-3 W 1200-120 * * Zhang,Amy Xian Open 17/ 50 CR/NC HCI/INTERACTIVE SYSTEMS SEMINAR -- WILL MEET WEDNESDAYS 12-1:20 PM --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13116",
+    "status": "Unknown",
+    "raw_string": ">13116 I 1-3 to be arranged 0/ 60E CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13117",
+    "status": "Open",
+    "raw_string": "Restr 13117 J 1-3 to be arranged Fogarty,James Open 28/ 40 CR/NC DUB SEMINAR GO TO: HTTP://DUB.UW.EDU FOR LOCATION AND SPEAKER INFORMATION."
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13118",
+    "status": "Unknown",
+    "raw_string": ">13118 K 1-3 to be arranged 0/ 20 CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13120",
+    "status": "Unknown",
+    "raw_string": ">13120 M 1-3 to be arranged 0/ 20 CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13121",
+    "status": "Open",
+    "raw_string": "Restr 13121 N 1-3 M 330-420 * Just,Rene Open 9/ 25E CR/NC SOFTWARE ENGINEERING SEMINAR"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13122",
+    "status": "Unknown",
+    "raw_string": ">13122 O 1-3 to be arranged 0/ 20E CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13123",
+    "status": "Open",
+    "raw_string": "Restr 13123 P 1-3 F 230-320 * * Tatlock,Zachary Open 16/ 30E CR/NC PROGRAMMING LANGUAGES --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13124",
+    "status": "Open",
+    "raw_string": "Restr 13124 Q 1-2 to be arranged Balazinska,Magda Open 4/ 30E CR/NC DATABASE SEMINAR"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13125",
+    "status": "Open",
+    "raw_string": "Restr 13125 R 1 F 130-220 * Cakmak,Maya Open 10/ 40E CR/NC ROBOTICS COLLOQUIUM"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13126",
+    "status": "Open",
+    "raw_string": "Restr 13126 S 1-3 W 100-150 CSE 403 Kasikci,Baris Open 19/ 30 CR/NC SYSTEMS SEMINAR"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13127",
+    "status": "Unknown",
+    "raw_string": ">13127 T 1-3 to be arranged 0/ 30E CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13128",
+    "status": "Open",
+    "raw_string": "13128 U 1 M 1200-1250 CSE 203 Garg,Poojita Open 9/ 30 CR/NC --- UBICOMP SEMINAR ---"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13129",
+    "status": "Unknown",
+    "raw_string": ">13129 V 1-3 to be arranged Shapiro,Linda G 0/ 20 CR/NC TBA"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13130",
+    "status": "Open",
+    "raw_string": "Restr 13130 W 1 M 230-320 * * Desai,Aashaka Open 1/ 25 CR/NC --- ART X ACCESSIBILITY FEATURING GUEST SPEAKERS EACH WEEK --- WILL MEET MONDAYS 2:30-3:20PM --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13131",
+    "status": "Open",
+    "raw_string": "Restr 13131 X 1 T 430-550P * * Ernst,Michael D Open 0/ 60 CR/NC --- HOW TO PHD II -- FOR 1ST-YEAR CSE PHD STUDENTS -- 2-QUARTER SEMINAR HELD AU/WI --"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13132",
+    "status": "Open",
+    "raw_string": "Restr 13132 Y 1-2 W 230-320 * Roesner,Franziska Open 10/ 20 CR/NC SECURITY SEMINAR"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "13133",
+    "status": "Open",
+    "raw_string": "Restr 13133 Z 1-2 T 130-220 * Karlin,Anna Open 10/ 25 CR/NC THEORY SEMINAR"
+  },
+  {
+    "course": "CSE 590",
+    "sln": "22396",
+    "status": "Open",
+    "raw_string": "Restr 22396 Z1 1-2 M 230-450 * * Slote,Joseph Open 10/ 25 CR/NC -- ANALYSIS OF BOOLEAN FUNCTIONS -- WILL MEET MON 2:30-4:50 PM --"
+  },
+  {
+    "course": "CSE 591",
+    "sln": "22412",
+    "status": "Open",
+    "raw_string": "Restr 22412 B 1-3 to be arranged * * Rao,Rajesh Open 3/ 20 CR/NC -- NEURAL SYSTEMS LAB MEETING --"
+  },
+  {
+    "course": "CSE 591",
+    "sln": "13134",
+    "status": "Open",
+    "raw_string": "Restr 13134 D 1-3 to be arranged Suciu,Dan Open 6/ 20 CR/NC DATABASE GROUP MEETING"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13135",
+    "status": "Unknown",
+    "raw_string": ">13135 A 1-5 to be arranged 1/ 25 TBA"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13136",
+    "status": "Open",
+    "raw_string": "Restr 13136 C 4 TTh 1130-1250 * Coladangelo,Andrea Open 15/ 50 -- SPECIAL TOPICS: MODERN QUANTUM CRYPTOGRAPHY --"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13137",
+    "status": "Open",
+    "raw_string": "Restr 13137 D 4 MW 1000-1120 * Suciu,Dan Open 10/ 30 -- GRAD SPECIAL TOPICS ADVANCES IN QUERY PROCESSING & QUERY OPTIMIZATION --"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13139",
+    "status": "Open",
+    "raw_string": "Restr 13139 G 4 TTh 1000-1120 CSE2 G01 Farhadi,Ali Open 8/ 9 J -- DEEP LEARNING FOR COMPUTER VISION"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13140",
+    "status": "Open",
+    "raw_string": "13140 GA QZ F 930-1020 SMI 211 Yadav,Tanush Open 4/ 5 J"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13141",
+    "status": "Open",
+    "raw_string": "13141 GB QZ F 1230-120 JHN 075 Yadav,Tanush Open 4/ 6 J"
+  },
+  {
+    "course": "CSE 599",
+    "sln": "13143",
+    "status": "Open",
+    "raw_string": "Restr 13143 J 4 MW 300-420 ECE 003 Tsvetkov,Yulia Open 19/ 25 -- GRAD SPECIAL TOPICS: THE NEW AI STORY: EMPOWERING HUMANS IN THE AGE OF MACHINES --"
+  },
+  {
+    "course": "CSE 600",
+    "sln": "13145",
+    "status": "Unknown",
+    "raw_string": "IS >13145 A 1-10 to be arranged 203/ 80E CR/NC"
+  },
+  {
+    "course": "CSE 601",
+    "sln": "13146",
+    "status": "Open",
+    "raw_string": "Restr 13146 A 1-2 to be arranged Open 53/ 90 CR/NC"
+  },
+  {
+    "course": "CSE 700",
+    "sln": "13147",
+    "status": "Unknown",
+    "raw_string": "IS >13147 A 1-10 to be arranged 0/ 50 CR/NC"
+  },
+  {
+    "course": "CSE 800",
+    "sln": "13148",
+    "status": "Unknown",
+    "raw_string": "IS >13148 A 1-10 to be arranged 189/ 100E CR/NC"
+  }
+]
