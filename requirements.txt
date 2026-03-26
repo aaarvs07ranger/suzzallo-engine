@@ -1,9 +1,8 @@
-fastapi==0.110.0
-uvicorn==0.28.0
-openai==1.14.2
-supabase==2.3.6
-pdfplumber==0.11.0
-python-dotenv==1.0.1
-pydantic==2.6.4
-python-multipart==0.0.9
-# Forcing Render to update
+fastapi
+uvicorn
+openai
+supabase
+pdfplumber
+python-dotenv
+pydantic
+python-multipart
