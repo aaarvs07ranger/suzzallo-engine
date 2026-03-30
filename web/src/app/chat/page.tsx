@@ -1,18 +1,19 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, Bot, User, Library, Paperclip, FileText, CheckCircle2 } from "lucide-react";
+import { Send, Bot, User, Library, Paperclip, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import ReactMarkdown from "react-markdown";
+import { motion, AnimatePresence } from "framer-motion";
 
 type Message = {
   role: "user" | "agent";
   content: string;
 };
 
-export default function SuzzalloApp() {
+export default function SuzzalloChat() {
   const [prompt, setPrompt] = useState("");
   const [messages, setMessages] = useState<Message[]>([
     { role: "agent", content: "Welcome to Suzzallo. Upload your unofficial transcript to get started, or just tell me what you want to take." }
@@ -23,13 +24,35 @@ export default function SuzzalloApp() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  // --- Dynamic Loading Steps ---
+  const loadingSteps = [
+    "Analyzing course constraints...",
+    "Querying UW Time Schedule...",
+    "Cross-referencing RateMyProfessors...",
+    "Calculating non-overlapping permutations...",
+    "Finalizing optimal schedule..."
+  ];
+  const [loadingStep, setLoadingStep] = useState(0);
+
+  // Auto-scroll to bottom
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
   }, [messages, isLoading]);
 
-  // --- NEW: PDF Upload Logic ---
+  // Cycle through loading steps
+  useEffect(() => {
+    if (isLoading) {
+      const interval = setInterval(() => {
+        setLoadingStep((prev) => (prev < loadingSteps.length - 1 ? prev + 1 : prev));
+      }, 2500);
+      return () => clearInterval(interval);
+    } else {
+      setLoadingStep(0);
+    }
+  }, [isLoading]);
+
   const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;
@@ -47,7 +70,7 @@ export default function SuzzalloApp() {
       });
 
       const data = await response.json();
-      setStudentContext(data); // Save the JSON to React state
+      setStudentContext(data); 
       
       setMessages(prev => [...prev, { 
         role: "agent", 
@@ -72,7 +95,6 @@ export default function SuzzalloApp() {
       const response = await fetch("https://suzzallo-engine.onrender.com/generate-schedule", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        // --- NEW: Send the context if we have it ---
         body: JSON.stringify({ prompt: prompt, student_context: studentContext }),
       });
 
@@ -86,24 +108,24 @@ export default function SuzzalloApp() {
   };
 
   return (
-    <div className="flex h-screen bg-slate-50 items-center justify-center p-4">
-      <Card className="w-full max-w-4xl h-[90vh] flex flex-col shadow-xl border-slate-200 overflow-hidden">
+    <div className="flex h-screen bg-slate-950 items-center justify-center p-4">
+      <Card className="w-full max-w-4xl h-[90vh] flex flex-col shadow-2xl border-slate-800 bg-slate-900 overflow-hidden">
         
         {/* Header */}
-        <CardHeader className="border-b bg-white px-6 py-4 flex flex-row items-center justify-between shrink-0">
+        <CardHeader className="border-b border-slate-800 bg-slate-900/50 backdrop-blur-md px-6 py-4 flex flex-row items-center justify-between shrink-0">
           <div className="flex items-center gap-3">
-            <div className="bg-indigo-600 p-2 rounded-lg">
-              <Library className="text-white h-6 w-6" />
+            <div className="bg-indigo-500/20 p-2 rounded-lg border border-indigo-500/30">
+              <Library className="text-indigo-400 h-6 w-6" />
             </div>
             <div>
-              <CardTitle className="text-2xl font-bold text-slate-800 tracking-tight">Suzzallo</CardTitle>
-              <p className="text-sm text-slate-500 font-medium">The AI Academic Strategist • UW Seattle</p>
+              <CardTitle className="text-xl font-bold text-slate-100 tracking-tight">Suzzallo</CardTitle>
+              <p className="text-xs text-slate-400 font-medium tracking-wide uppercase">UW Seattle Strategy Engine</p>
             </div>
           </div>
           
           {/* Status Indicator */}
           {studentContext && (
-            <div className="flex items-center gap-2 px-3 py-1.5 bg-green-50 text-green-700 rounded-full border border-green-200 text-xs font-semibold">
+            <div className="flex items-center gap-2 px-3 py-1.5 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20 text-xs font-semibold shadow-sm">
               <CheckCircle2 className="h-4 w-4" />
               Transcript Synced
             </div>
@@ -111,39 +133,57 @@ export default function SuzzalloApp() {
         </CardHeader>
 
         {/* Chat Area */}
-        <div ref={scrollRef} className="flex-1 overflow-y-auto p-6 bg-slate-50/50 scroll-smooth">
+        <div ref={scrollRef} className="flex-1 overflow-y-auto p-6 bg-slate-950/50 scroll-smooth">
           <div className="flex flex-col gap-6">
             {messages.map((msg, i) => (
               <div key={i} className={`flex gap-4 ${msg.role === "user" ? "justify-end" : "justify-start"}`}>
                 {msg.role === "agent" && (
-                  <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200 shrink-0 mt-1">
-                    <Bot className="h-5 w-5 text-indigo-600" />
+                  <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700 shrink-0 mt-1 shadow-sm">
+                    <Bot className="h-4 w-4 text-indigo-400" />
                   </div>
                 )}
                 
                 <div className={`px-5 py-4 rounded-2xl max-w-[80%] shadow-sm prose prose-sm max-w-none ${
                   msg.role === "user" 
-                    ? "bg-indigo-600 text-white rounded-br-none prose-invert" 
-                    : "bg-white text-slate-800 border border-slate-200 rounded-bl-none prose-slate"
+                    ? "bg-indigo-600 text-white rounded-br-none prose-invert shadow-indigo-900/20" 
+                    : "bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-none prose-invert"
                 }`}>
                   <ReactMarkdown>{msg.content}</ReactMarkdown>
                 </div>
 
                 {msg.role === "user" && (
-                  <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center shrink-0 mt-1">
-                    <User className="h-5 w-5 text-slate-600" />
+                  <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700 shrink-0 mt-1 shadow-sm">
+                    <User className="h-4 w-4 text-slate-300" />
                   </div>
                 )}
               </div>
             ))}
             
+            {/* The Animated Thinking Visualizer */}
             {isLoading && (
-              <div className="flex gap-4 justify-start">
-                 <div className="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center shrink-0 mt-1">
-                    <Bot className="h-5 w-5 text-indigo-600 animate-pulse" />
+              <div className="flex gap-4 justify-start mb-4">
+                 <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700 shrink-0 mt-1 shadow-sm">
+                    <Bot className="h-4 w-4 text-indigo-400 animate-pulse" />
                   </div>
-                <div className="px-5 py-4 rounded-2xl bg-white border border-slate-200 rounded-bl-none text-slate-400 text-sm animate-pulse">
-                  Processing...
+                <div className="px-5 py-4 rounded-2xl bg-slate-800 border border-slate-700 rounded-bl-none shadow-sm min-w-[300px]">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="h-4 w-4 rounded-full border-2 border-indigo-500 border-t-transparent animate-spin" />
+                    <span className="font-semibold text-slate-200 text-sm tracking-tight">Engine Active</span>
+                  </div>
+                  <div className="h-5 overflow-hidden relative">
+                    <AnimatePresence mode="popLayout">
+                      <motion.div 
+                        key={loadingStep}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -10 }}
+                        transition={{ duration: 0.3 }}
+                        className="text-indigo-400 font-medium text-xs absolute w-full"
+                      >
+                        {loadingSteps[loadingStep]}
+                      </motion.div>
+                    </AnimatePresence>
+                  </div>
                 </div>
               </div>
             )}
@@ -151,10 +191,10 @@ export default function SuzzalloApp() {
         </div>
 
         {/* Input Area */}
-        <div className="p-4 bg-white border-t shrink-0">
+        <div className="p-4 bg-slate-900 border-t border-slate-800 shrink-0">
           <form 
             onSubmit={(e) => { e.preventDefault(); handleSend(); }}
-            className="flex gap-3 items-center"
+            className="flex gap-3 items-center max-w-4xl mx-auto"
           >
             {/* Hidden File Input */}
             <input 
@@ -171,7 +211,7 @@ export default function SuzzalloApp() {
               variant="outline"
               onClick={() => fileInputRef.current?.click()}
               disabled={isLoading}
-              className="h-14 w-14 rounded-xl border-slate-300 text-slate-500 hover:text-indigo-600 hover:bg-indigo-50 hover:border-indigo-200 transition-all"
+              className="h-14 w-14 rounded-xl border-slate-700 bg-slate-800 text-slate-400 hover:text-indigo-400 hover:bg-slate-800 hover:border-indigo-500/50 transition-all shadow-sm"
             >
               <Paperclip className="h-5 w-5" />
             </Button>
@@ -179,14 +219,14 @@ export default function SuzzalloApp() {
             <Input 
               value={prompt}
               onChange={(e) => setPrompt(e.target.value)}
-              placeholder="Type your constraints..." 
-              className="flex-1 border-slate-300 focus-visible:ring-indigo-600 shadow-sm text-base h-14 rounded-xl"
+              placeholder="Type your constraints (e.g., 'Find me a light schedule with no Friday classes')..." 
+              className="flex-1 border-slate-700 bg-slate-800 text-slate-200 placeholder:text-slate-500 focus-visible:ring-indigo-500 shadow-sm text-base h-14 rounded-xl"
               disabled={isLoading}
             />
             <Button 
               type="submit" 
               disabled={isLoading || !prompt.trim()}
-              className="bg-indigo-600 hover:bg-indigo-700 text-white h-14 w-14 shadow-sm rounded-xl transition-all"
+              className="bg-indigo-600 hover:bg-indigo-500 text-white h-14 w-14 shadow-md shadow-indigo-900/20 rounded-xl transition-all disabled:opacity-50"
             >
               <Send className="h-5 w-5" />
             </Button>
