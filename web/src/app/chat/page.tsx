@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import ReactMarkdown from "react-markdown";
 import { motion, AnimatePresence } from "framer-motion";
+import ScheduleVisualizer from "@/components/ScheduleVisualizer";
 
 type Message = {
   role: "user" | "agent";
@@ -143,12 +144,19 @@ export default function SuzzalloChat() {
                   </div>
                 )}
                 
-                <div className={`px-5 py-4 rounded-2xl max-w-[80%] shadow-sm prose prose-sm max-w-none ${
+                <div className={`px-5 py-4 rounded-2xl max-w-[85%] shadow-sm prose prose-sm max-w-none ${
                   msg.role === "user" 
                     ? "bg-indigo-600 text-white rounded-br-none prose-invert shadow-indigo-900/20" 
                     : "bg-slate-800 text-slate-200 border border-slate-700 rounded-bl-none prose-invert"
                 }`}>
                   <ReactMarkdown>{msg.content}</ReactMarkdown>
+                  
+                  {/* INJECT THE CALENDAR IF AI SAYS SO */}
+                  {msg.role === "agent" && msg.content.includes("Here is a potential schedule") && (
+                    <div className="mt-4">
+                      <ScheduleVisualizer />
+                    </div>
+                  )}
                 </div>
 
                 {msg.role === "user" && (
