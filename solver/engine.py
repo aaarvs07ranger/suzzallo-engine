@@ -64,7 +64,7 @@ def check_conflict(section_a: Dict, section_b: Dict) -> bool:
                     return True # OVERLAP DETECTED
     return False
 
-def build_schedules(constraints: dict, db: List[dict]):
+def build_schedules(constraints: dict, db: list):
     """The Core Swarm Engine: Generates, Filters, and Ranks Schedules."""
     desired_courses = constraints.get("desired_courses", [])
     no_classes_before = constraints.get("no_classes_before")
@@ -72,19 +72,35 @@ def build_schedules(constraints: dict, db: List[dict]):
 
     cutoff_time = time_to_int(no_classes_before) if no_classes_before else 0
 
-    # 1. Gather all open sections for the requested courses
     course_pools = {course: [] for course in desired_courses}
     
+    # --- NEW: Normalize requested courses (e.g., "ENGL 131" -> "ENGL131") ---
+    normalized_requests = {req: req.replace(" ", "").upper() for req in desired_courses}
+    
     for section in db:
-        c_name = section.get("course")
-        if c_name in desired_courses and section.get("status", "Closed") != "Closed":
+        # Normalize the database course name 
+        c_name = str(section.get("course", ""))
+        c_norm = c_name.replace(" ", "").upper()
+        
+        # Clean up the status string just in case there are hidden spaces
+        status = str(section.get("status", "Closed")).strip().title()
+        
+        # --- NEW: Bulletproof Matching ---
+        # Checks if the DB course starts with the requested course (handles "ENGL131A")
+        matched_req = None
+        for req_original, req_norm in normalized_requests.items():
+            if c_norm.startswith(req_norm):
+                matched_req = req_original
+                break
+
+        if matched_req and status != "Closed":
             
             # Filter out early classes
             blocks = parse_uw_time(extract_time(section.get('raw_string', '')))
             if blocks and any(b['start'] < cutoff_time for b in blocks):
                 continue
                 
-            course_pools[c_name].append(section)
+            course_pools[matched_req].append(section)
 
     # If a requested course has no open sections (or none after 11AM), fail early
     for c, pool in course_pools.items():
@@ -93,6 +109,7 @@ def build_schedules(constraints: dict, db: List[dict]):
 
     # 2. Cartesian Product: Generate EVERY possible combination
     pools = [course_pools[c] for c in desired_courses]
+    from itertools import product
     all_combinations = list(product(*pools))
 
     # 3. Filter out Time Conflicts
@@ -111,6 +128,8 @@ def build_schedules(constraints: dict, db: List[dict]):
 
     if not valid_schedules:
         return {"error": "Found classes, but they all conflict in time."}
+        
+    return valid_schedules
 
     # 4. Rank the surviving schedules (The Vibe Check)
     def score_schedule(schedule):
