@@ -7,19 +7,18 @@ import { Input } from "@/components/ui/input";
 import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 import ReactMarkdown from "react-markdown";
 import { motion, AnimatePresence } from "framer-motion";
-import ScheduleVisualizer from "@/components/ScheduleVisualizer";
+import ScheduleVisualizer, { CourseData } from "@/components/ScheduleVisualizer";
 
 type Message = {
   role: "user" | "agent";
   content: string;
+  schedule_data?: CourseData[]; // <--- NEW: Allows backend to send calendar data
 };
 
 export default function SuzzalloChat() {
   const [prompt, setPrompt] = useState("");
   const [messages, setMessages] = useState<Message[]>([
-    { role: "agent", content: "Welcome to Suzzallo. Upload your unofficial transcript to get started, or just tell me what you want to take." },
-    // --- THIS IS THE FAKE MESSAGE TO TRIGGER THE CALENDAR INSTANTLY ---
-    { role: "agent", content: "Here is a potential schedule based on your parameters. Let me know if you want to swap any of these out!" }
+    { role: "agent", content: "Welcome to Suzzallo. Upload your unofficial transcript to get started, or just tell me what you want to take." }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const [studentContext, setStudentContext] = useState<any>(null);
@@ -27,7 +26,6 @@ export default function SuzzalloChat() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // --- Dynamic Loading Steps ---
   const loadingSteps = [
     "Analyzing course constraints...",
     "Querying UW Time Schedule...",
@@ -37,14 +35,12 @@ export default function SuzzalloChat() {
   ];
   const [loadingStep, setLoadingStep] = useState(0);
 
-  // Auto-scroll to bottom
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
   }, [messages, isLoading]);
 
-  // Cycle through loading steps
   useEffect(() => {
     if (isLoading) {
       const interval = setInterval(() => {
@@ -102,7 +98,13 @@ export default function SuzzalloChat() {
       });
 
       const data = await response.json();
-      setMessages([...newMessages, { role: "agent", content: data.agent_response }]);
+      
+      // Save the text response AND the schedule JSON data from Python
+      setMessages([...newMessages, { 
+        role: "agent", 
+        content: data.agent_response,
+        schedule_data: data.schedule_data // <--- NEW: Read the data array from backend
+      }]);
     } catch (error) {
       setMessages([...newMessages, { role: "agent", content: "Error connecting to the Suzzallo Engine." }]);
     } finally {
@@ -114,7 +116,6 @@ export default function SuzzalloChat() {
     <div className="flex h-screen bg-slate-950 items-center justify-center p-4">
       <Card className="w-full max-w-4xl h-[90vh] flex flex-col shadow-2xl border-slate-800 bg-slate-900 overflow-hidden">
         
-        {/* Header */}
         <CardHeader className="border-b border-slate-800 bg-slate-900/50 backdrop-blur-md px-6 py-4 flex flex-row items-center justify-between shrink-0">
           <div className="flex items-center gap-3">
             <div className="bg-indigo-500/20 p-2 rounded-lg border border-indigo-500/30">
@@ -126,7 +127,6 @@ export default function SuzzalloChat() {
             </div>
           </div>
           
-          {/* Status Indicator */}
           {studentContext && (
             <div className="flex items-center gap-2 px-3 py-1.5 bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20 text-xs font-semibold shadow-sm">
               <CheckCircle2 className="h-4 w-4" />
@@ -135,7 +135,6 @@ export default function SuzzalloChat() {
           )}
         </CardHeader>
 
-        {/* Chat Area */}
         <div ref={scrollRef} className="flex-1 overflow-y-auto p-6 bg-slate-950/50 scroll-smooth">
           <div className="flex flex-col gap-6">
             {messages.map((msg, i) => (
@@ -153,10 +152,10 @@ export default function SuzzalloChat() {
                 }`}>
                   <ReactMarkdown>{msg.content}</ReactMarkdown>
                   
-                  {/* INJECT THE CALENDAR IF AI SAYS SO */}
-                  {msg.role === "agent" && msg.content.includes("Here is a potential schedule") && (
+                  {/* INJECT THE CALENDAR IF BACKEND SENDS DATA */}
+                  {msg.schedule_data && msg.schedule_data.length > 0 && (
                     <div className="mt-4">
-                      <ScheduleVisualizer />
+                      <ScheduleVisualizer data={msg.schedule_data} />
                     </div>
                   )}
                 </div>
@@ -169,7 +168,6 @@ export default function SuzzalloChat() {
               </div>
             ))}
             
-            {/* The Animated Thinking Visualizer */}
             {isLoading && (
               <div className="flex gap-4 justify-start mb-4">
                  <div className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center border border-slate-700 shrink-0 mt-1 shadow-sm">
@@ -200,13 +198,11 @@ export default function SuzzalloChat() {
           </div>
         </div>
 
-        {/* Input Area */}
         <div className="p-4 bg-slate-900 border-t border-slate-800 shrink-0">
           <form 
             onSubmit={(e) => { e.preventDefault(); handleSend(); }}
             className="flex gap-3 items-center max-w-4xl mx-auto"
           >
-            {/* Hidden File Input */}
             <input 
               type="file" 
               accept=".pdf"
@@ -215,7 +211,6 @@ export default function SuzzalloChat() {
               className="hidden"
             />
             
-            {/* Upload Button */}
             <Button 
               type="button" 
               variant="outline"
