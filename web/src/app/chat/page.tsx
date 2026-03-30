@@ -17,7 +17,9 @@ type Message = {
 export default function SuzzalloChat() {
   const [prompt, setPrompt] = useState("");
   const [messages, setMessages] = useState<Message[]>([
-    { role: "agent", content: "Welcome to Suzzallo. Upload your unofficial transcript to get started, or just tell me what you want to take." }
+    { role: "agent", content: "Welcome to Suzzallo. Upload your unofficial transcript to get started, or just tell me what you want to take." },
+    // --- THIS IS THE FAKE MESSAGE TO TRIGGER THE CALENDAR INSTANTLY ---
+    { role: "agent", content: "Here is a potential schedule based on your parameters. Let me know if you want to swap any of these out!" }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const [studentContext, setStudentContext] = useState<any>(null);
