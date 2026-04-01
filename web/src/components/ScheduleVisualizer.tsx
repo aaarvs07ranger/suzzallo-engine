@@ -1,105 +1,264 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { MapPin, Star } from "lucide-react";
+import { useState } from "react";
+import { CalendarRange, Clock3, MapPin, Star, Ticket } from "lucide-react";
 
 export type CourseData = {
   id?: string | number;
   name: string;
   type?: string;
   days: string[];
-  start: number; // e.g., 10.5 for 10:30 AM
-  duration: number; // e.g., 1.5 for 1.5 hours
+  start: number;
+  duration: number;
   prof: string;
-  rating: number;
+  rating?: number | null;
+  reviews_count?: number | null;
   loc: string;
   color?: string;
+  time_label?: string;
+  days_label?: string;
+  section?: string;
+  sln?: string;
 };
 
-// Fallback data just in case the backend sends an empty array
-const FALLBACK_SCHEDULE: CourseData[] = [
-  { id: 1, name: "CSE 142", type: "Lecture", days: ["M", "W", "F"], start: 10, duration: 1, prof: "Smith", rating: 4.5, loc: "KNE 110" },
-  { id: 2, name: "MATH 124", type: "Lecture", days: ["T", "Th"], start: 11.5, duration: 1.5, prof: "Loveless", rating: 4.8, loc: "GWN 301" },
-  { id: 3, name: "DRAMA 101", type: "Lecture", days: ["M", "W"], start: 13, duration: 1.5, prof: "Odai", rating: 4.9, loc: "HUT 130" }
-];
-
-const COLORS = [
-  "from-blue-500/20 to-indigo-500/20 border-indigo-500/30 text-indigo-300",
-  "from-emerald-500/20 to-teal-500/20 border-teal-500/30 text-teal-300",
-  "from-purple-500/20 to-fuchsia-500/20 border-fuchsia-500/30 text-fuchsia-300",
-  "from-amber-500/20 to-orange-500/20 border-orange-500/30 text-orange-300",
-  "from-rose-500/20 to-pink-500/20 border-pink-500/30 text-pink-300"
-];
-
 const DAYS = ["M", "T", "W", "Th", "F"];
-const HOURS = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
+const PALETTE = [
+  "bg-emerald-100 border-emerald-300 text-emerald-950",
+  "bg-amber-100 border-amber-300 text-amber-950",
+  "bg-sky-100 border-sky-300 text-sky-950",
+  "bg-rose-100 border-rose-300 text-rose-950",
+  "bg-violet-100 border-violet-300 text-violet-950",
+  "bg-cyan-100 border-cyan-300 text-cyan-950",
+];
+
+function formatHourLabel(hour: number) {
+  const displayHour = hour % 12 || 12;
+  const suffix = hour >= 12 ? "PM" : "AM";
+  return `${displayHour}:00 ${suffix}`;
+}
+
+function sortMeetings(data: CourseData[]) {
+  return [...data].sort((a, b) => a.start - b.start || a.name.localeCompare(b.name));
+}
 
 export default function ScheduleVisualizer({ data }: { data?: CourseData[] }) {
-  // Use backend data if provided, otherwise fallback to the mock data
-  const scheduleToRender = data && data.length > 0 ? data : FALLBACK_SCHEDULE;
+  const meetings = sortMeetings(data ?? []);
+  const [activeMeetingId, setActiveMeetingId] = useState<string | number | null>(null);
 
-  // Calculate total credits (assuming 5 per class for UI purposes, can be dynamic later)
-  const totalCredits = scheduleToRender.length * 5 - (scheduleToRender.length > 2 ? 1 : 0);
+  if (!meetings.length) {
+    return (
+      <div className="rounded-[1.75rem] border border-stone-200 bg-stone-50 px-5 py-6 text-sm text-stone-600">
+        No schedule has been selected yet.
+      </div>
+    );
+  }
+
+  const minStart = Math.max(8, Math.floor(Math.min(...meetings.map((meeting) => meeting.start))));
+  const maxEnd = Math.min(21, Math.ceil(Math.max(...meetings.map((meeting) => meeting.start + meeting.duration))));
+  const hours = Array.from({ length: maxEnd - minStart + 1 }, (_, index) => minStart + index);
+  const rowHeight = 76;
+  const courseNames = Array.from(new Set(meetings.map((meeting) => meeting.name)));
+  const colorByCourse = new Map(
+    courseNames.map((courseName, index) => [courseName, PALETTE[index % PALETTE.length]])
+  );
+  const activeMeeting =
+    meetings.find((meeting) => meeting.id === activeMeetingId) ??
+    meetings[0] ??
+    null;
 
   return (
-    <div className="w-full mt-4 bg-slate-900/50 rounded-2xl border border-slate-700/50 p-4 shadow-xl backdrop-blur-sm overflow-hidden">
-      <div className="flex items-center justify-between mb-4 pb-3 border-b border-slate-700/50">
-        <h3 className="text-sm font-semibold text-slate-200 uppercase tracking-wider">Proposed Schedule</h3>
-        <span className="text-xs text-slate-400 bg-slate-800 px-2 py-1 rounded-md">{totalCredits} Credits</span>
+    <div className="space-y-4">
+      <div className="grid gap-3 sm:grid-cols-3">
+        <div className="rounded-2xl border border-stone-200 bg-white/90 px-4 py-3">
+          <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Meetings</div>
+          <div className="mt-2 text-2xl font-semibold text-stone-900">{meetings.length}</div>
+        </div>
+        <div className="rounded-2xl border border-stone-200 bg-white/90 px-4 py-3">
+          <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Campus Days</div>
+          <div className="mt-2 text-2xl font-semibold text-stone-900">
+            {new Set(meetings.flatMap((meeting) => meeting.days)).size}
+          </div>
+        </div>
+        <div className="rounded-2xl border border-stone-200 bg-white/90 px-4 py-3">
+          <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Earliest Start</div>
+          <div className="mt-2 text-2xl font-semibold text-stone-900">
+            {meetings[0]?.time_label?.split("-")[0] ?? formatHourLabel(minStart)}
+          </div>
+        </div>
       </div>
 
-      <div className="relative grid grid-cols-[50px_repeat(5,1fr)] gap-2">
-        <div className="col-start-1"></div>
-        {DAYS.map((day) => (
-          <div key={day} className="text-center text-xs font-bold text-slate-400 pb-2">
-            {day}
+      <div className="overflow-hidden rounded-[1.75rem] border border-stone-200 bg-[#fffdfa]">
+        <div className="border-b border-stone-200 bg-white/80 px-5 py-4">
+          <div className="flex items-center gap-2 text-sm font-medium text-stone-800">
+            <CalendarRange className="h-4 w-4 text-emerald-700" />
+            Weekly schedule
           </div>
-        ))}
+          <p className="mt-1 text-sm text-stone-600">
+            Tap a class block to inspect the exact section, location, and registration details.
+          </p>
+        </div>
 
-        {HOURS.map((hour) => (
-          <div key={hour} className="contents">
-            <div className="text-right pr-2 text-[10px] text-slate-500 font-medium -mt-2">
-              {hour > 12 ? hour - 12 : hour} {hour >= 12 ? 'PM' : 'AM'}
-            </div>
-            {DAYS.map((day) => (
-              <div key={`${day}-${hour}`} className="h-12 border-t border-slate-800/50 relative"></div>
-            ))}
+        <div className="px-4 py-4 md:hidden">
+          <div className="space-y-3">
+            {meetings.map((meeting) => {
+              const cardColor = colorByCourse.get(meeting.name) ?? PALETTE[0];
+              return (
+                <button
+                  key={String(meeting.id)}
+                  type="button"
+                  onClick={() => setActiveMeetingId(meeting.id ?? null)}
+                  className={`w-full rounded-2xl border px-4 py-3 text-left transition hover:-translate-y-0.5 ${cardColor} ${
+                    activeMeeting?.id === meeting.id ? "ring-2 ring-emerald-600/30" : ""
+                  }`}
+                >
+                  <div className="flex items-start justify-between gap-4">
+                    <div>
+                      <div className="font-semibold">{meeting.name}</div>
+                      <div className="mt-1 text-sm opacity-80">
+                        {meeting.days_label ?? meeting.days.join("")} • {meeting.time_label}
+                      </div>
+                    </div>
+                    <div className="text-xs uppercase tracking-[0.2em] opacity-70">{meeting.type}</div>
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-2 text-xs opacity-80">
+                    <span className="inline-flex items-center gap-1">
+                      <MapPin className="h-3 w-3" />
+                      {meeting.loc}
+                    </span>
+                    <span className="inline-flex items-center gap-1">
+                      <Star className="h-3 w-3" />
+                      {meeting.rating ? `${meeting.rating.toFixed(1)} ${meeting.prof}` : meeting.prof}
+                    </span>
+                  </div>
+                </button>
+              );
+            })}
           </div>
-        ))}
+        </div>
 
-        {scheduleToRender.map((cls, index) => {
-          const colorClass = cls.color || COLORS[index % COLORS.length]; // Auto-assign a color
+        <div className="hidden px-4 py-4 md:block">
+          <div className="overflow-x-auto">
+            <div className="min-w-[760px]">
+              <div className="grid grid-cols-[64px_repeat(5,minmax(0,1fr))] gap-x-3 pb-3">
+                <div />
+                {DAYS.map((day) => (
+                  <div
+                    key={day}
+                    className="rounded-xl bg-stone-100 px-3 py-2 text-center text-xs font-semibold uppercase tracking-[0.24em] text-stone-600"
+                  >
+                    {day}
+                  </div>
+                ))}
+              </div>
 
-          return cls.days.map((day) => {
-            const dayIndex = DAYS.indexOf(day);
-            if (dayIndex === -1) return null; // Skip invalid days
-            const startOffset = cls.start - 8; 
-            
-            return (
-              <motion.div
-                key={`${cls.name}-${day}`}
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.3, delay: index * 0.1 }}
-                className={`absolute p-2 rounded-lg border bg-gradient-to-br shadow-lg backdrop-blur-md cursor-pointer hover:brightness-125 transition-all ${colorClass}`}
-                style={{
-                  gridColumn: dayIndex + 2, 
-                  top: `${(startOffset * 48) + 24}px`, 
-                  height: `${cls.duration * 48 - 4}px`, 
-                  width: 'calc(100% - 8px)',
-                  left: '4px'
-                }}
-              >
-                <div className="font-bold text-xs leading-tight mb-1">{cls.name}</div>
-                <div className="text-[9px] opacity-80 flex flex-col gap-0.5">
-                  <span className="flex items-center gap-1"><MapPin className="h-2 w-2"/> {cls.loc}</span>
-                  <span className="flex items-center gap-1"><Star className="h-2 w-2"/> {cls.rating} {cls.prof}</span>
+              <div className="relative">
+                <div className="grid grid-cols-[64px_repeat(5,minmax(0,1fr))] gap-x-3">
+                  {hours.map((hour, rowIndex) => (
+                    <div key={hour} className="contents">
+                      <div className="pt-0.5 text-right text-[11px] font-medium text-stone-500">
+                        {formatHourLabel(hour)}
+                      </div>
+                      {DAYS.map((day) => (
+                        <div
+                          key={`${day}-${hour}`}
+                          className={`h-[76px] rounded-xl border ${
+                            rowIndex % 2 === 0 ? "border-stone-200 bg-white" : "border-stone-200 bg-stone-50/70"
+                          }`}
+                        />
+                      ))}
+                    </div>
+                  ))}
                 </div>
-              </motion.div>
-            );
-          });
-        })}
+
+                <div className="pointer-events-none absolute inset-y-0 left-[76px] right-0">
+                  {meetings.map((meeting) => {
+                    const firstDay = meeting.days[0];
+                    const dayIndex = DAYS.indexOf(firstDay);
+                    const top = (meeting.start - minStart) * rowHeight;
+                    const height = Math.max(54, meeting.duration * rowHeight - 6);
+                    const cardColor = colorByCourse.get(meeting.name) ?? PALETTE[0];
+
+                    if (dayIndex === -1) {
+                      return null;
+                    }
+
+                    return (
+                      <button
+                        key={String(meeting.id)}
+                        type="button"
+                        onClick={() => setActiveMeetingId(meeting.id ?? null)}
+                        className={`pointer-events-auto absolute rounded-2xl border px-3 py-2 text-left shadow-sm transition hover:-translate-y-0.5 ${cardColor} ${
+                          activeMeeting?.id === meeting.id ? "ring-2 ring-emerald-600/30" : ""
+                        }`}
+                        style={{
+                          left: `calc(${dayIndex * 20}% + 6px)`,
+                          width: "calc(20% - 12px)",
+                          top,
+                          height,
+                        }}
+                      >
+                        <div className="line-clamp-2 text-sm font-semibold">{meeting.name}</div>
+                        <div className="mt-1 text-xs opacity-75">
+                          {meeting.type} • {meeting.time_label}
+                        </div>
+                        <div className="mt-2 space-y-1 text-[11px] opacity-80">
+                          <div className="flex items-center gap-1">
+                            <MapPin className="h-3 w-3" />
+                            <span className="truncate">{meeting.loc}</span>
+                          </div>
+                          <div className="flex items-center gap-1">
+                            <Star className="h-3 w-3" />
+                            <span className="truncate">
+                              {meeting.rating ? `${meeting.rating.toFixed(1)} • ` : ""}
+                              {meeting.prof}
+                            </span>
+                          </div>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {activeMeeting && (
+        <div className="grid gap-4 rounded-[1.75rem] border border-stone-200 bg-white/90 px-5 py-5 lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <div className="text-xs uppercase tracking-[0.24em] text-stone-500">Selected section</div>
+            <h3 className="mt-2 text-2xl font-semibold text-stone-950">{activeMeeting.name}</h3>
+            <p className="mt-2 max-w-2xl text-sm text-stone-600">
+              {activeMeeting.type} on {activeMeeting.days_label ?? activeMeeting.days.join("")} at{" "}
+              {activeMeeting.time_label}.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
+            <div className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-sm text-stone-700">
+              <div className="flex items-center gap-2">
+                <Clock3 className="h-4 w-4 text-emerald-700" />
+                {activeMeeting.time_label}
+              </div>
+              <div className="mt-3 flex items-center gap-2">
+                <MapPin className="h-4 w-4 text-emerald-700" />
+                {activeMeeting.loc}
+              </div>
+            </div>
+            <div className="rounded-2xl border border-stone-200 bg-stone-50 px-4 py-3 text-sm text-stone-700">
+              <div className="flex items-center gap-2">
+                <Star className="h-4 w-4 text-emerald-700" />
+                {activeMeeting.rating ? `${activeMeeting.rating.toFixed(1)} rating` : "No rating yet"}
+              </div>
+              <div className="mt-3 flex items-center gap-2">
+                <Ticket className="h-4 w-4 text-emerald-700" />
+                {activeMeeting.section ? `Section ${activeMeeting.section}` : "Section TBD"}
+                {activeMeeting.sln ? ` • SLN ${activeMeeting.sln}` : ""}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
