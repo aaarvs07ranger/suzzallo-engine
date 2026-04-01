@@ -1,5 +1,6 @@
 venv/
 .env
 __pycache__/
+.next/
 *.pdf
 uw_auth_state.json
