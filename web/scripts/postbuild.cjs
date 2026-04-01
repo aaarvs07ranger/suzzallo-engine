@@ -3,7 +3,6 @@ const path = require("node:path");
 
 const packageRoot = path.resolve(__dirname, "..");
 const sourceNextDir = path.join(packageRoot, ".next");
-const parentNextDir = path.join(packageRoot, "..", ".next");
 
 function ensureDeterministicManifest(nextDir) {
   const routesManifest = path.join(nextDir, "routes-manifest.json");
@@ -16,15 +15,8 @@ function ensureDeterministicManifest(nextDir) {
 }
 
 if (!fs.existsSync(sourceNextDir)) {
-  process.stdout.write(`Skipped postbuild mirror because ${sourceNextDir} does not exist\n`);
+  process.stdout.write(`Skipped postbuild compatibility step because ${sourceNextDir} does not exist\n`);
   process.exit(0);
 }
 
 ensureDeterministicManifest(sourceNextDir);
-
-if (parentNextDir !== sourceNextDir) {
-  fs.mkdirSync(parentNextDir, { recursive: true });
-  fs.cpSync(sourceNextDir, parentNextDir, { recursive: true, force: true });
-  ensureDeterministicManifest(parentNextDir);
-  process.stdout.write(`Mirrored Next build artifacts to ${path.relative(packageRoot, parentNextDir)}\n`);
-}
